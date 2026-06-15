@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baodian_1005
+  rotate: false
+  xy: 1, 1
+  size: 218, 218
+  orig: 218, 218
+  offset: 0, 0
+  index: -1
+chuizi
+  rotate: false
+  xy: 221, 53
+  size: 165, 166
+  orig: 165, 166
+  offset: 0, 0
+  index: -1

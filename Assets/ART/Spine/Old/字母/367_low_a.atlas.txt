@@ -1,0 +1,62 @@
+
+367_low_a.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: true
+  xy: 849, 69
+  size: 179, 142
+  orig: 179, 142
+  offset: 0, 0
+  index: -1
+dtg_80
+  rotate: false
+  xy: 272, 2
+  size: 246, 246
+  orig: 246, 246
+  offset: 0, 0
+  index: -1
+g1
+  rotate: false
+  xy: 1, 1
+  size: 269, 247
+  orig: 269, 247
+  offset: 0, 0
+  index: -1
+j
+  rotate: false
+  xy: 696, 24
+  size: 151, 224
+  orig: 151, 224
+  offset: 0, 0
+  index: -1
+k
+  rotate: true
+  xy: 1143, 97
+  size: 151, 149
+  orig: 151, 149
+  offset: 0, 0
+  index: -1
+q
+  rotate: false
+  xy: 520, 48
+  size: 174, 200
+  orig: 174, 200
+  offset: 0, 0
+  index: -1
+theme367_s_l1
+  rotate: true
+  xy: 993, 90
+  size: 158, 148
+  orig: 158, 148
+  offset: 0, 0
+  index: -1
+xxg
+  rotate: false
+  xy: 1294, 139
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1

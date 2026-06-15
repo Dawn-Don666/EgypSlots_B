@@ -1,0 +1,27 @@
+
+GameSettlement_Clound.png
+size: 488,224
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GameSettlement_Clound_Delete​​​
+  rotate: true
+  xy: 164, 3
+  size: 217, 159
+  orig: 218, 160
+  offset: 1, 0
+  index: -1
+GameSettlement_Clound_Normal​​​
+  rotate: true
+  xy: 325, 3
+  size: 217, 159
+  orig: 218, 160
+  offset: 1, 0
+  index: -1
+GameSettlement_Clound_Win​​​
+  rotate: true
+  xy: 2, 2
+  size: 218, 160
+  orig: 218, 160
+  offset: 0, 0
+  index: -1

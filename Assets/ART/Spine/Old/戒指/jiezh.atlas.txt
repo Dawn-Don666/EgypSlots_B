@@ -1,0 +1,153 @@
+
+jiezh.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+d
+  rotate: false
+  xy: 1267, 83
+  size: 50, 73
+  orig: 50, 73
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00000
+  rotate: true
+  xy: 1, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00001
+  rotate: true
+  xy: 1, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00002
+  rotate: true
+  xy: 143, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00003
+  rotate: true
+  xy: 143, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00004
+  rotate: true
+  xy: 285, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00005
+  rotate: true
+  xy: 285, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00006
+  rotate: true
+  xy: 427, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00007
+  rotate: true
+  xy: 427, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00008
+  rotate: true
+  xy: 569, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00009
+  rotate: true
+  xy: 569, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00010
+  rotate: true
+  xy: 711, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00011
+  rotate: true
+  xy: 711, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00012
+  rotate: true
+  xy: 853, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00013
+  rotate: true
+  xy: 853, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00014
+  rotate: true
+  xy: 995, 264
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jiezhi/jiezhi_00015
+  rotate: true
+  xy: 995, 32
+  size: 230, 140
+  orig: 230, 140
+  offset: 0, 0
+  index: -1
+jz
+  rotate: true
+  xy: 1137, 273
+  size: 221, 132
+  orig: 221, 132
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 1137, 131
+  size: 123, 140
+  orig: 123, 140
+  offset: 0, 0
+  index: -1
+yq_10129_tex_14
+  rotate: false
+  xy: 1137, 1
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+ys
+  rotate: true
+  xy: 1262, 158
+  size: 113, 96
+  orig: 113, 96
+  offset: 0, 0
+  index: -1

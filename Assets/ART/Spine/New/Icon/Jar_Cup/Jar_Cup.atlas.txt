@@ -1,0 +1,20 @@
+
+Jar_Cup.png
+size: 1424,1000
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cup
+  rotate: false
+  xy: 2, 2
+  size: 772, 672
+  orig: 1329, 1313
+  offset: 295, 327
+  index: -1
+Light
+  rotate: true
+  xy: 2, 676
+  size: 321, 1417
+  orig: 339, 1417
+  offset: 9, 0
+  index: -1

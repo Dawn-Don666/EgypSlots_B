@@ -1,0 +1,90 @@
+
+bg.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1-1
+  rotate: false
+  xy: 847, 265
+  size: 171, 227
+  orig: 171, 227
+  offset: 0, 0
+  index: -1
+1-2
+  rotate: false
+  xy: 847, 40
+  size: 166, 223
+  orig: 166, 223
+  offset: 0, 0
+  index: -1
+2-1
+  rotate: true
+  xy: 459, 67
+  size: 155, 231
+  orig: 155, 231
+  offset: 0, 0
+  index: -1
+2-2
+  rotate: true
+  xy: 1, 26
+  size: 143, 228
+  orig: 143, 228
+  offset: 0, 0
+  index: -1
+3-1
+  rotate: false
+  xy: 692, 1
+  size: 151, 221
+  orig: 151, 221
+  offset: 0, 0
+  index: -1
+3-2
+  rotate: true
+  xy: 231, 26
+  size: 143, 217
+  orig: 143, 217
+  offset: 0, 0
+  index: -1
+BG
+  rotate: false
+  xy: 459, 224
+  size: 386, 268
+  orig: 386, 268
+  offset: 0, 0
+  index: -1
+deng1
+  rotate: false
+  xy: 877, 24
+  size: 101, 14
+  orig: 101, 14
+  offset: 0, 0
+  index: -1
+flare_2011
+  rotate: false
+  xy: 845, 8
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+kk
+  rotate: false
+  xy: 1, 171
+  size: 456, 321
+  orig: 456, 321
+  offset: 0, 0
+  index: -1
+lrj_10113_tex_05
+  rotate: false
+  xy: 580, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+lrj_10113_tex_07
+  rotate: false
+  xy: 450, 1
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1

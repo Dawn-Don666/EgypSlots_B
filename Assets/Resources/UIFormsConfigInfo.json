@@ -1,0 +1,85 @@
+{
+  "ConfigInfo": [
+    { "Key": "\u672C\u914D\u7F6E\u6587\u4EF6\u8BF4\u660E" },
+    {
+      "Key": "CashOutPanel",
+      "Value": "UIPanel\\CashOutPanel"
+    },
+    {
+      "Key": "CornUsTrick",
+      "Value": "UIPanel\\CornUsTrick"
+    },
+    {
+      "Key": "TraitTrick",
+      "Value": "UIPanel\\TraitTrick"
+    },
+    {
+      "Key": "Wharf",
+      "Value": "UIPanel\\Common\\Wharf"
+    },
+    {
+      "Key": "SinkTrick",
+      "Value": "UIPanel\\SinkTrick"
+    },
+    {
+      "Key": "LightlyTrick",
+      "Value": "UIPanel\\LightlyTrick"
+    },
+    {
+      "Key": "WordFSWeeklyTrick",
+      "Value": "UIPanel\\WordFSWeeklyTrick"
+    },
+    {
+      "Key": "FestiveBackTrick",
+      "Value": "UIPanel\\FestiveBackTrick"
+    },
+    {
+      "Key": "FestiveBackGrassHeTrick",
+      "Value": "UIPanel\\FestiveBackGrassHeTrick"
+    },
+    {
+      "Key": "SpanButTrick",
+      "Value": "UIPanel\\SpanButTrick"
+    },
+    {
+      "Key": "Chile3Trick",
+      "Value": "UIPanel\\Chile3Trick"
+    },
+    {
+      "Key": "VantageWeeklyTrick",
+      "Value": "UIPanel\\VantageWeeklyTrick"
+    },
+    {
+      "Key": "PryTrick",
+      "Value": "UIPanel\\PryTrick"
+    },
+    {
+      "Key": "FareTedTrick",
+      "Value": "UIPanel\\FareTedTrick"
+    },
+    {
+      "Key": "TileTipTrick",
+      "Value": "UIPanel\\TileTipTrick"
+    },
+    {
+      "Key": "ElectroTrick",
+      "Value": "UIPanel\\ElectroTrick"
+    },
+    {
+      "Key": "LopsidedTrick",
+      "Value": "UIPanel\\LopsidedTrick"
+    },
+    {
+      "Key": "MinigameWeeklyTrick",
+      "Value": "UIPanel\\MinigameWeeklyTrick"
+    },
+    {
+      "Key": "AgeAlarmTrick",
+      "Value": "UIPanel\\AgeAlarmTrick"
+    },
+    {
+      "Key": "JoyWeaverAvoidTrick",
+      "Value": "UIPanel\\JoyWeaverAvoidTrick"
+    }
+  ]
+}

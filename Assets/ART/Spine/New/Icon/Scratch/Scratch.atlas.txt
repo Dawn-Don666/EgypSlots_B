@@ -1,0 +1,48 @@
+
+Scratch.png
+size: 1892,1772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 1117, 909
+  size: 773, 860
+  orig: 773, 860
+  offset: 0, 0
+  index: -1
+Light
+  rotate: false
+  xy: 2, 352
+  size: 321, 1417
+  orig: 339, 1417
+  offset: 9, 0
+  index: -1
+card1
+  rotate: false
+  xy: 325, 925
+  size: 722, 844
+  orig: 723, 844
+  offset: 1, 0
+  index: -1
+card2
+  rotate: false
+  xy: 1117, 47
+  size: 773, 860
+  orig: 773, 860
+  offset: 0, 0
+  index: -1
+summon_normal_0401
+  rotate: false
+  xy: 325, 770
+  size: 152, 153
+  orig: 154, 155
+  offset: 1, 1
+  index: -1
+zi
+  rotate: false
+  xy: 2, 2
+  size: 1113, 348
+  orig: 1120, 354
+  offset: 4, 3
+  index: -1

@@ -1,0 +1,118 @@
+
+skeleton.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Fluid_000
+  rotate: false
+  xy: 1, 671
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_001
+  rotate: false
+  xy: 1, 336
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_002
+  rotate: false
+  xy: 336, 671
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_003
+  rotate: false
+  xy: 1, 1
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_004
+  rotate: false
+  xy: 336, 336
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_005
+  rotate: false
+  xy: 671, 671
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_006
+  rotate: false
+  xy: 336, 1
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_007
+  rotate: false
+  xy: 671, 336
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_008
+  rotate: false
+  xy: 1006, 671
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_009
+  rotate: false
+  xy: 671, 1
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_010
+  rotate: false
+  xy: 1006, 336
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_011
+  rotate: false
+  xy: 1341, 671
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_012
+  rotate: false
+  xy: 1006, 1
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_013
+  rotate: false
+  xy: 1341, 336
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_014
+  rotate: false
+  xy: 1676, 671
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1
+Fluid_015
+  rotate: false
+  xy: 1341, 1
+  size: 333, 333
+  orig: 333, 333
+  offset: 0, 0
+  index: -1

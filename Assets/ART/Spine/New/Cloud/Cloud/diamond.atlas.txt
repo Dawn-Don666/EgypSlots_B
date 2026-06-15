@@ -1,0 +1,125 @@
+
+diamond.png
+size: 1729,632
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+SpotLight
+  rotate: false
+  xy: 560, 96
+  size: 203, 85
+  orig: 205, 102
+  offset: 2, 10
+  index: -1
+fireworks_l
+  rotate: true
+  xy: 765, 41
+  size: 64, 63
+  orig: 69, 68
+  offset: 3, 2
+  index: -1
+flare_2011
+  rotate: false
+  xy: 1406, 169
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+fx_cloud_white_3
+  rotate: false
+  xy: 377, 36
+  size: 181, 145
+  orig: 188, 162
+  offset: 4, 7
+  index: -1
+lightPoint_b
+  rotate: false
+  xy: 1510, 176
+  size: 32, 32
+  orig: 36, 35
+  offset: 4, 0
+  index: -1
+lightPoint_p3
+  rotate: true
+  xy: 1544, 179
+  size: 29, 30
+  orig: 34, 33
+  offset: 3, 2
+  index: -1
+m
+  rotate: false
+  xy: 838, 9
+  size: 566, 262
+  orig: 572, 262
+  offset: 6, 0
+  index: -1
+mergeOne_0
+  rotate: true
+  xy: 765, 107
+  size: 74, 70
+  orig: 74, 70
+  offset: 0, 0
+  index: -1
+mergeOne_1
+  rotate: false
+  xy: 1633, 191
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+mergeOne_2
+  rotate: false
+  xy: 1606, 186
+  size: 25, 22
+  orig: 25, 22
+  offset: 0, 0
+  index: -1
+mergeOne_3
+  rotate: false
+  xy: 1652, 196
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+mergeOne_4
+  rotate: false
+  xy: 1576, 182
+  size: 28, 26
+  orig: 28, 26
+  offset: 0, 0
+  index: -1
+mm_1
+  rotate: false
+  xy: 2, 2
+  size: 373, 179
+  orig: 864, 1872
+  offset: 293, 1232
+  index: -1
+qian
+  rotate: false
+  xy: 2, 183
+  size: 834, 447
+  orig: 834, 447
+  offset: 0, 0
+  index: -1
+s
+  rotate: true
+  xy: 1517, 210
+  size: 420, 210
+  orig: 420, 210
+  offset: 0, 0
+  index: -1
+ss_1
+  rotate: false
+  xy: 1406, 21
+  size: 289, 146
+  orig: 289, 146
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 838, 273
+  size: 677, 357
+  orig: 834, 447
+  offset: 68, 39
+  index: -1

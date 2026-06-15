@@ -1,0 +1,104 @@
+
+impact_electric.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 205, 62
+  size: 65, 59
+  orig: 65, 59
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 272, 62
+  size: 65, 59
+  orig: 65, 59
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 339, 62
+  size: 65, 59
+  orig: 65, 59
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 406, 56
+  size: 65, 59
+  orig: 65, 59
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 205, 1
+  size: 65, 59
+  orig: 65, 59
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 272, 1
+  size: 65, 59
+  orig: 65, 59
+  offset: 0, 0
+  index: -1
+F1
+  rotate: false
+  xy: 1, 123
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+F2
+  rotate: false
+  xy: 103, 123
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+F3
+  rotate: false
+  xy: 205, 123
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+F4
+  rotate: false
+  xy: 307, 123
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+F5
+  rotate: false
+  xy: 409, 123
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+F6
+  rotate: false
+  xy: 1, 21
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+F7
+  rotate: false
+  xy: 103, 21
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ligthball
+  rotate: false
+  xy: 339, 10
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+Ring.png
+size: 1424,848
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light
+  rotate: true
+  xy: 2, 2
+  size: 321, 1417
+  orig: 339, 1417
+  offset: 9, 0
+  index: -1
+Ring
+  rotate: false
+  xy: 291, 325
+  size: 709, 520
+  orig: 1347, 1482
+  offset: 203, 537
+  index: -1
+baoshi
+  rotate: true
+  xy: 2, 606
+  size: 239, 287
+  orig: 239, 287
+  offset: 0, 0
+  index: -1

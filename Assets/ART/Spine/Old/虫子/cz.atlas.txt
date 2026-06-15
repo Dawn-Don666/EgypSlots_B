@@ -1,0 +1,118 @@
+
+cz.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BAAOS
+  rotate: true
+  xy: 299, 3
+  size: 98, 105
+  orig: 98, 105
+  offset: 0, 0
+  index: -1
+BAOS
+  rotate: false
+  xy: 1, 11
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+BODY
+  rotate: true
+  xy: 677, 396
+  size: 114, 159
+  orig: 114, 159
+  offset: 0, 0
+  index: -1
+BS
+  rotate: true
+  xy: 677, 325
+  size: 69, 126
+  orig: 69, 126
+  offset: 0, 0
+  index: -1
+CB
+  rotate: true
+  xy: 310, 103
+  size: 149, 251
+  orig: 149, 251
+  offset: 0, 0
+  index: -1
+SH
+  rotate: false
+  xy: 169, 56
+  size: 128, 162
+  orig: 128, 162
+  offset: 0, 0
+  index: -1
+SVZ
+  rotate: false
+  xy: 504, 37
+  size: 48, 64
+  orig: 48, 64
+  offset: 0, 0
+  index: -1
+TrailHead7
+  rotate: true
+  xy: 1, 220
+  size: 290, 307
+  orig: 290, 307
+  offset: 0, 0
+  index: -1
+ZZ
+  rotate: true
+  xy: 504, 3
+  size: 32, 42
+  orig: 32, 42
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 563, 14
+  size: 153, 153
+  orig: 153, 153
+  offset: 0, 0
+  index: -1
+light_000
+  rotate: true
+  xy: 568, 169
+  size: 341, 107
+  orig: 341, 107
+  offset: 0, 0
+  index: -1
+quan_00
+  rotate: false
+  xy: 1, 52
+  size: 166, 166
+  orig: 166, 166
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 310, 254
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+xxg
+  rotate: false
+  xy: 406, 5
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+z
+  rotate: true
+  xy: 169, 1
+  size: 53, 100
+  orig: 53, 100
+  offset: 0, 0
+  index: -1
+zsj
+  rotate: false
+  xy: 718, 219
+  size: 69, 104
+  orig: 69, 104
+  offset: 0, 0
+  index: -1

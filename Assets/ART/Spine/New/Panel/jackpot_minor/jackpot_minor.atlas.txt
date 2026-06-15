@@ -1,0 +1,153 @@
+
+jackpot_minor.png
+size: 2933,2218
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Flash_lighe_b
+  rotate: false
+  xy: 1497, 46
+  size: 115, 126
+  orig: 320, 126
+  offset: 109, 0
+  index: -1
+ICON_1
+  rotate: true
+  xy: 2442, 247
+  size: 552, 463
+  orig: 552, 463
+  offset: 0, 0
+  index: -1
+ICON_light
+  rotate: true
+  xy: 1950, 219
+  size: 580, 490
+  orig: 584, 494
+  offset: 2, 2
+  index: -1
+Major_1m_A
+  rotate: true
+  xy: 991, 145
+  size: 208, 179
+  orig: 208, 180
+  offset: 0, 1
+  index: -1
+Major_1m_B
+  rotate: true
+  xy: 2, 115
+  size: 238, 223
+  orig: 240, 225
+  offset: 1, 1
+  index: -1
+Major_2a_A
+  rotate: false
+  xy: 2853, 977
+  size: 72, 179
+  orig: 72, 180
+  offset: 0, 1
+  index: -1
+Major_2a_B
+  rotate: true
+  xy: 2, 15
+  size: 98, 223
+  orig: 100, 225
+  offset: 1, 1
+  index: -1
+Major_3j_A
+  rotate: true
+  xy: 1316, 8
+  size: 159, 179
+  orig: 159, 180
+  offset: 0, 1
+  index: -1
+Major_3j_B
+  rotate: false
+  xy: 635, 130
+  size: 175, 223
+  orig: 177, 225
+  offset: 1, 1
+  index: -1
+Major_4o_A
+  rotate: false
+  xy: 1172, 169
+  size: 170, 184
+  orig: 171, 184
+  offset: 1, 0
+  index: -1
+Major_4o_B
+  rotate: false
+  xy: 227, 126
+  size: 192, 227
+  orig: 194, 230
+  offset: 1, 1
+  index: -1
+Major_5r_A
+  rotate: false
+  xy: 1344, 174
+  size: 175, 179
+  orig: 177, 182
+  offset: 1, 2
+  index: -1
+Major_5r_B
+  rotate: false
+  xy: 421, 130
+  size: 212, 223
+  orig: 214, 225
+  offset: 1, 1
+  index: -1
+NumberBar_1
+  rotate: false
+  xy: 227, 2
+  size: 1087, 122
+  orig: 1087, 122
+  offset: 0, 0
+  index: -1
+NumberBar_2_down
+  rotate: false
+  xy: 1893, 801
+  size: 1016, 85
+  orig: 1027, 93
+  offset: 6, 4
+  index: -1
+NumberBar_2_up
+  rotate: true
+  xy: 2853, 1158
+  size: 1058, 78
+  orig: 1069, 86
+  offset: 6, 4
+  index: -1
+NumberBar_2_up2
+  rotate: false
+  xy: 1521, 259
+  size: 370, 94
+  orig: 374, 97
+  offset: 2, 1
+  index: -1
+bg_light_1
+  rotate: true
+  xy: 1522, 888
+  size: 1328, 1329
+  orig: 1418, 1418
+  offset: 46, 44
+  index: -1
+bg_light_2
+  rotate: false
+  xy: 2, 355
+  size: 1518, 1861
+  orig: 1690, 2041
+  offset: 86, 90
+  index: -1
+glow3
+  rotate: false
+  xy: 1522, 370
+  size: 426, 429
+  orig: 512, 512
+  offset: 43, 41
+  index: -1
+sparkle3
+  rotate: false
+  xy: 812, 134
+  size: 177, 219
+  orig: 256, 256
+  offset: 39, 20
+  index: -1

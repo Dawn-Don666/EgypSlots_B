@@ -1,0 +1,160 @@
+
+Spine_LuckyJar_Scatter.png
+size: 744,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 2, 49
+  size: 253, 207
+  orig: 253, 207
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 269, 358
+  size: 284, 163
+  orig: 284, 163
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 269, 168
+  size: 253, 188
+  orig: 253, 188
+  offset: 0, 0
+  index: -1
+en_pink
+  rotate: false
+  xy: 555, 336
+  size: 185, 185
+  orig: 210, 213
+  offset: 14, 15
+  index: -1
+lightPoint_b
+  rotate: false
+  xy: 54, 9
+  size: 40, 38
+  orig: 45, 44
+  offset: 4, 3
+  index: -1
+lv1_lz
+  rotate: true
+  xy: 416, 23
+  size: 55, 80
+  orig: 58, 83
+  offset: 1, 1
+  index: -1
+lv3_highlight
+  rotate: false
+  xy: 2, 258
+  size: 265, 263
+  orig: 267, 265
+  offset: 1, 1
+  index: -1
+lv3_highlight1
+  rotate: false
+  xy: 524, 138
+  size: 212, 196
+  orig: 214, 198
+  offset: 1, 1
+  index: -1
+lv3_silk1
+  rotate: false
+  xy: 96, 16
+  size: 35, 31
+  orig: 39, 33
+  offset: 2, 1
+  index: -1
+lv3_sp2
+  rotate: true
+  xy: 498, 70
+  size: 8, 9
+  orig: 11, 11
+  offset: 2, 1
+  index: -1
+lv3_sp4
+  rotate: false
+  xy: 643, 25
+  size: 21, 24
+  orig: 23, 28
+  offset: 1, 2
+  index: -1
+lv3_sp5
+  rotate: false
+  xy: 166, 31
+  size: 14, 16
+  orig: 16, 18
+  offset: 1, 1
+  index: -1
+lv3_sp6
+  rotate: false
+  xy: 643, 51
+  size: 33, 35
+  orig: 37, 39
+  offset: 2, 2
+  index: -1
+lv3_star2_light
+  rotate: false
+  xy: 2, 2
+  size: 50, 45
+  orig: 62, 59
+  offset: 6, 7
+  index: -1
+lv3_star3_light
+  rotate: false
+  xy: 643, 88
+  size: 47, 48
+  orig: 53, 55
+  offset: 3, 4
+  index: -1
+mergeOne_0
+  rotate: false
+  xy: 416, 80
+  size: 91, 86
+  orig: 92, 87
+  offset: 0, 0
+  index: -1
+mergeOne_1
+  rotate: false
+  xy: 524, 336
+  size: 20, 20
+  orig: 21, 21
+  offset: 1, 0
+  index: -1
+mergeOne_2
+  rotate: false
+  xy: 133, 20
+  size: 31, 27
+  orig: 31, 28
+  offset: 0, 1
+  index: -1
+mergeOne_3
+  rotate: true
+  xy: 509, 151
+  size: 15, 13
+  orig: 15, 15
+  offset: 0, 1
+  index: -1
+mergeOne_4
+  rotate: false
+  xy: 692, 103
+  size: 35, 33
+  orig: 35, 33
+  offset: 0, 0
+  index: -1
+mergeOne_line
+  rotate: true
+  xy: 509, 25
+  size: 111, 132
+  orig: 116, 140
+  offset: 3, 5
+  index: -1
+shou_L
+  rotate: false
+  xy: 257, 9
+  size: 157, 157
+  orig: 159, 159
+  offset: 1, 1
+  index: -1

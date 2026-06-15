@@ -1,0 +1,27 @@
+
+Boost.png
+size: 1632,872
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Light
+  rotate: true
+  xy: 2, 549
+  size: 321, 1417
+  orig: 339, 1417
+  offset: 9, 0
+  index: -1
+yun
+  rotate: false
+  xy: 2, 2
+  size: 872, 545
+  orig: 879, 545
+  offset: 3, 0
+  index: -1
+zi
+  rotate: false
+  xy: 876, 280
+  size: 754, 267
+  orig: 759, 273
+  offset: 3, 3
+  index: -1

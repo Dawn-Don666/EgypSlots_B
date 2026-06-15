@@ -1,0 +1,48 @@
+
+wuyun.png
+size: 1900,1219
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold_yun
+  rotate: false
+  xy: 1018, 772
+  size: 880, 445
+  orig: 882, 447
+  offset: 1, 1
+  index: -1
+m
+  rotate: false
+  xy: 563, 2
+  size: 715, 328
+  orig: 715, 328
+  offset: 0, 0
+  index: -1
+qian
+  rotate: true
+  xy: 2, 175
+  size: 1042, 559
+  orig: 1042, 559
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 1280, 72
+  size: 516, 262
+  orig: 516, 262
+  offset: 0, 0
+  index: -1
+yin_yun
+  rotate: false
+  xy: 1018, 336
+  size: 874, 434
+  orig: 876, 436
+  offset: 2, 2
+  index: -1
+yun
+  rotate: true
+  xy: 563, 332
+  size: 885, 453
+  orig: 1042, 559
+  offset: 63, 49
+  index: -1

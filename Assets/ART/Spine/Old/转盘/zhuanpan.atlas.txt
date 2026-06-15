@@ -1,0 +1,55 @@
+
+zhuanpan.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c_11
+  rotate: false
+  xy: 1, 33
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 597, 259
+  size: 267, 252
+  orig: 267, 252
+  offset: 0, 0
+  index: -1
+fzj_Theme_10113_tex_07
+  rotate: false
+  xy: 323, 12
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+qq
+  rotate: false
+  xy: 323, 214
+  size: 272, 297
+  orig: 272, 297
+  offset: 0, 0
+  index: -1
+xian
+  rotate: false
+  xy: 597, 1
+  size: 254, 256
+  orig: 254, 256
+  offset: 0, 0
+  index: -1
+yy
+  rotate: false
+  xy: 1, 190
+  size: 320, 321
+  orig: 320, 321
+  offset: 0, 0
+  index: -1
+zimu
+  rotate: true
+  xy: 1, 99
+  size: 89, 54
+  orig: 89, 54
+  offset: 0, 0
+  index: -1

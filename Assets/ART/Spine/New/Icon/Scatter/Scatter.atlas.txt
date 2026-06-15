@@ -1,0 +1,160 @@
+
+Scatter.png
+size: 1596,1508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 325, 577
+  size: 722, 591
+  orig: 722, 591
+  offset: 0, 0
+  index: -1
+Fx
+  rotate: false
+  xy: 1317, 197
+  size: 149, 157
+  orig: 168, 172
+  offset: 13, 9
+  index: -1
+Light
+  rotate: false
+  xy: 2, 86
+  size: 321, 1417
+  orig: 339, 1417
+  offset: 9, 0
+  index: -1
+SP_1
+  rotate: true
+  xy: 133, 63
+  size: 21, 39
+  orig: 21, 39
+  offset: 0, 0
+  index: -1
+SP_2
+  rotate: false
+  xy: 1394, 164
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+SP_3
+  rotate: false
+  xy: 1049, 35
+  size: 31, 24
+  orig: 33, 25
+  offset: 1, 0
+  index: -1
+SP_4
+  rotate: true
+  xy: 1169, 66
+  size: 21, 34
+  orig: 21, 34
+  offset: 0, 0
+  index: -1
+gaizi
+  rotate: true
+  xy: 1049, 356
+  size: 812, 467
+  orig: 812, 467
+  offset: 0, 0
+  index: -1
+golden_1
+  rotate: false
+  xy: 1317, 146
+  size: 75, 49
+  orig: 75, 49
+  offset: 0, 0
+  index: -1
+green2
+  rotate: true
+  xy: 1340, 1170
+  size: 53, 25
+  orig: 53, 26
+  offset: 0, 0
+  index: -1
+hezi
+  rotate: false
+  xy: 325, 34
+  size: 722, 541
+  orig: 722, 541
+  offset: 0, 0
+  index: -1
+orange
+  rotate: true
+  xy: 1367, 1170
+  size: 53, 25
+  orig: 53, 26
+  offset: 0, 0
+  index: -1
+purple
+  rotate: true
+  xy: 1468, 297
+  size: 57, 45
+  orig: 57, 45
+  offset: 0, 0
+  index: -1
+purple2
+  rotate: false
+  xy: 2, 2
+  size: 58, 54
+  orig: 58, 55
+  offset: 0, 1
+  index: -1
+red
+  rotate: false
+  xy: 1317, 90
+  size: 58, 54
+  orig: 58, 55
+  offset: 0, 1
+  index: -1
+skill_levelup_ray_y_00000
+  rotate: false
+  xy: 1049, 89
+  size: 266, 265
+  orig: 300, 300
+  offset: 17, 18
+  index: -1
+softLight2
+  rotate: false
+  xy: 1340, 1254
+  size: 254, 249
+  orig: 254, 249
+  offset: 0, 0
+  index: -1
+tiao_b
+  rotate: true
+  xy: 1049, 61
+  size: 26, 118
+  orig: 31, 125
+  offset: 3, 3
+  index: -1
+tiao_g
+  rotate: true
+  xy: 2, 58
+  size: 26, 129
+  orig: 31, 135
+  offset: 3, 4
+  index: -1
+tiao_p
+  rotate: true
+  xy: 1340, 1225
+  size: 27, 102
+  orig: 31, 107
+  offset: 2, 3
+  index: -1
+ylight
+  rotate: false
+  xy: 1444, 1231
+  size: 20, 21
+  orig: 24, 25
+  offset: 2, 2
+  index: -1
+zi
+  rotate: false
+  xy: 325, 1170
+  size: 1013, 333
+  orig: 1019, 340
+  offset: 3, 3
+  index: -1

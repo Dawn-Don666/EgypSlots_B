@@ -1,0 +1,55 @@
+
+zhuanpan_Bug.png
+size: 1348,324
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+c_11
+  rotate: false
+  xy: 1143, 54
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+di
+  rotate: false
+  xy: 876, 70
+  size: 265, 250
+  orig: 267, 252
+  offset: 1, 1
+  index: -1
+fzj_Theme_10113_tex_07
+  rotate: false
+  xy: 1143, 120
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+qq
+  rotate: true
+  xy: 323, 50
+  size: 270, 295
+  orig: 272, 297
+  offset: 1, 1
+  index: -1
+xian
+  rotate: true
+  xy: 620, 68
+  size: 252, 254
+  orig: 254, 256
+  offset: 1, 1
+  index: -1
+yy
+  rotate: true
+  xy: 2, 2
+  size: 318, 319
+  orig: 320, 321
+  offset: 1, 1
+  index: -1
+zimu
+  rotate: false
+  xy: 876, 14
+  size: 89, 54
+  orig: 89, 54
+  offset: 0, 0
+  index: -1

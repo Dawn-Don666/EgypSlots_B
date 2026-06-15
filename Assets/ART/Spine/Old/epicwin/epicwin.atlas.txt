@@ -1,0 +1,62 @@
+
+epicwin.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2bei
+  rotate: false
+  xy: 1292, 157
+  size: 340, 340
+  orig: 340, 340
+  offset: 0, 0
+  index: -1
+big
+  rotate: false
+  xy: 385, 253
+  size: 521, 244
+  orig: 521, 244
+  offset: 0, 0
+  index: -1
+bigwin
+  rotate: false
+  xy: 883, 41
+  size: 407, 210
+  orig: 407, 210
+  offset: 0, 0
+  index: -1
+flare_2011
+  rotate: false
+  xy: 1123, 388
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 1634, 250
+  size: 269, 247
+  orig: 269, 247
+  offset: 0, 0
+  index: -1
+jinzi
+  rotate: true
+  xy: 1, 1
+  size: 496, 382
+  orig: 496, 382
+  offset: 0, 0
+  index: -1
+win
+  rotate: false
+  xy: 385, 13
+  size: 496, 238
+  orig: 496, 238
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 908, 284
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1

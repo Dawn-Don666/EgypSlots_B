@@ -1,0 +1,34 @@
+
+Honus_Harp.png
+size: 1424,924
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 2
+  size: 594, 757
+  orig: 594, 757
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 761, 193
+  size: 264, 403
+  orig: 264, 403
+  offset: 0, 0
+  index: -1
+Light
+  rotate: true
+  xy: 2, 598
+  size: 321, 1417
+  orig: 339, 1417
+  offset: 9, 0
+  index: -1
+yinfu
+  rotate: true
+  xy: 761, 119
+  size: 72, 209
+  orig: 256, 256
+  offset: 86, 24
+  index: -1

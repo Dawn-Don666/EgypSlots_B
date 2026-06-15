@@ -1,0 +1,69 @@
+
+mega_win.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2bei
+  rotate: false
+  xy: 838, 159
+  size: 340, 340
+  orig: 340, 340
+  offset: 0, 0
+  index: -1
+big
+  rotate: false
+  xy: 1180, 224
+  size: 532, 275
+  orig: 532, 275
+  offset: 0, 0
+  index: -1
+bigwin
+  rotate: true
+  xy: 626, 92
+  size: 407, 210
+  orig: 407, 210
+  offset: 0, 0
+  index: -1
+flare_2011
+  rotate: false
+  xy: 838, 48
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+g
+  rotate: true
+  xy: 1714, 230
+  size: 269, 247
+  orig: 269, 247
+  offset: 0, 0
+  index: -1
+jinzi
+  rotate: true
+  xy: 242, 3
+  size: 496, 382
+  orig: 496, 382
+  offset: 0, 0
+  index: -1
+super
+  rotate: false
+  xy: 1395, 36
+  size: 539, 186
+  orig: 539, 186
+  offset: 0, 0
+  index: -1
+win
+  rotate: true
+  xy: 1, 1
+  size: 498, 239
+  orig: 498, 239
+  offset: 0, 0
+  index: -1
+yanwu
+  rotate: false
+  xy: 1180, 9
+  size: 213, 213
+  orig: 213, 213
+  offset: 0, 0
+  index: -1

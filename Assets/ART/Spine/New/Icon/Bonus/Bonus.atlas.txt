@@ -1,0 +1,27 @@
+
+Bonus.png
+size: 1692,872
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bonus
+  rotate: false
+  xy: 2, 2
+  size: 874, 545
+  orig: 1357, 1087
+  offset: 307, 304
+  index: -1
+Light
+  rotate: true
+  xy: 2, 549
+  size: 321, 1417
+  orig: 339, 1417
+  offset: 9, 0
+  index: -1
+zi
+  rotate: false
+  xy: 878, 234
+  size: 809, 313
+  orig: 815, 319
+  offset: 3, 3
+  index: -1

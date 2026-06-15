@@ -1,0 +1,20 @@
+
+skeleton.png
+size: 607,49
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+maobian
+  rotate: false
+  xy: 529, 20
+  size: 76, 27
+  orig: 76, 27
+  offset: 0, 0
+  index: -1
+qq
+  rotate: false
+  xy: 2, 2
+  size: 525, 45
+  orig: 525, 45
+  offset: 0, 0
+  index: -1

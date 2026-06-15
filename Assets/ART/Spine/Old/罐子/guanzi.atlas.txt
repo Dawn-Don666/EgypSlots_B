@@ -1,0 +1,20 @@
+
+guanzi.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanzi
+  rotate: true
+  xy: 1, 1
+  size: 195, 317
+  orig: 195, 317
+  offset: 0, 0
+  index: -1
+yq_10129_tex_14
+  rotate: false
+  xy: 320, 87
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1

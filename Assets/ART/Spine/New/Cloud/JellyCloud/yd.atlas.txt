@@ -1,0 +1,41 @@
+
+yd.png
+size: 1407,1018
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flare_2011
+  rotate: false
+  xy: 889, 361
+  size: 94, 94
+  orig: 128, 128
+  offset: 16, 18
+  index: -1
+m
+  rotate: true
+  xy: 1046, 301
+  size: 715, 328
+  orig: 715, 328
+  offset: 0, 0
+  index: -1
+qian
+  rotate: false
+  xy: 2, 457
+  size: 1042, 559
+  orig: 1042, 559
+  offset: 0, 0
+  index: -1
+s
+  rotate: false
+  xy: 889, 37
+  size: 516, 262
+  orig: 516, 262
+  offset: 0, 0
+  index: -1
+yun
+  rotate: false
+  xy: 2, 2
+  size: 885, 453
+  orig: 1042, 559
+  offset: 63, 49
+  index: -1

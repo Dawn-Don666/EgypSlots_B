@@ -1,0 +1,83 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using DG.Tweening;
+using UnityEngine;
+using UnityEngine.UI;
+using System.Globalization;
+
+
+/// <summary> 提现入口 </summary>
+public class CashOutEnter : MonoBehaviour
+{
+    public Button OpenPanelBtn;
+    public Image FlyStart; // 飞入的起点
+    public Image FlyEnd; // 飞入的终点
+    public Image[] FlyImages;
+    public Text MoneyText; // 余额显示
+    public Text CashText; // 提现金额显示
+    public Text LeftTimeText; // 剩余时间显示
+    public Image MaxMoneyFill;
+    Tweener CashTextAnim;
+    Tweener MaxMoneyFillAnim;
+
+
+    void Start()
+    {
+        CashOutManager.TieRecharge()._CashOutEnter = this;
+        OpenPanelBtn.onClick.AddListener(() => { UIReelect.TieRecharge().SlowUIFetus(nameof(CashOutPanel)); });
+        UpdateMoney();
+    }
+
+    public void UpdateTime(string timeStr) //更新剩余时间
+    {
+        LeftTimeText.text = timeStr;
+    }
+
+    public void UpdateMoney()
+    {
+        CashTextAnim?.Kill(true);
+        MaxMoneyFillAnim?.Kill(true);
+
+        MoneyText.text = FormatNumber(CashOutManager.TieRecharge().Money);
+        CashText.text = CashOutManager.TieRecharge().Data.Cash.ToString("F2");
+        float MaxMoney = float.Parse(BatSizeSit.instance.EditJar_Lieu.convert_goal, CultureInfo.CurrentCulture);
+        float MoneyEnd = CashOutManager.TieRecharge().Money;
+        MaxMoneyFillAnim = DOTween.To(() => MaxMoneyFill.fillAmount, x => MaxMoneyFill.fillAmount = x, Mathf.Min(1, MoneyEnd / MaxMoney), 1f);
+    }
+    public void MoneyToCashAnim(bool IconFly)
+    {
+        CashTextAnim?.Kill(true);
+        MaxMoneyFillAnim?.Kill(true);
+
+        float CashOutStart = float.Parse(CashText.text, CultureInfo.CurrentCulture);
+        float CashOutEnd = CashOutManager.TieRecharge().Data.Cash;
+        MoneyText.text = FormatNumber(CashOutManager.TieRecharge().Money);
+        CashTextAnim = DOTween.To(() => CashOutStart, x => CashText.text = x.ToString("F2"), CashOutEnd, 1f).SetDelay(.7f);
+
+        if (IconFly)
+        {
+            for (int i = 0; i < FlyImages.Length; i++)
+            {
+                Image img = FlyImages[i];
+                img.gameObject.SetActive(true);
+                img.sprite = FlyStart.sprite;
+                img.transform.DOKill();
+                img.transform.position = FlyStart.transform.position;
+                img.transform.DOMove(FlyEnd.transform.position, .7f).SetEase(Ease.Linear).SetDelay(i * 0.1f).OnComplete(() =>
+                {
+                    img.gameObject.SetActive(false);
+                    SnowySit.TieRecharge().BeerMethyl(SnowyUser.UIMusic.Sound_GoldCoin);
+                });
+            }
+        }
+    }
+
+    string FormatNumber(float num)
+    {
+        if (num >= 1_000_000)
+            return (num / 1_000_000).ToString("0.#", CultureInfo.InvariantCulture) + "B";
+        if (num >= 1_000)
+            return (num / 1_000).ToString("0.#", CultureInfo.InvariantCulture) + "K";
+        return num.ToString("0", CultureInfo.InvariantCulture);
+    }
+}
