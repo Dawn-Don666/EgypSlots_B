@@ -67,7 +67,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: d4a9002979a7f34488b09ac606c30b13, type: 3}
+    m_Font: {fileID: 12800000, guid: 0959d93b17e579649b415d5c3dc6de09, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -107,7 +107,6 @@ GameObject:
   - component: {fileID: 6169579712005869333}
   - component: {fileID: -8622246102736086430}
   - component: {fileID: -2026619294811456742}
-  - component: {fileID: 4317105956280380547}
   m_Layer: 5
   m_Name: ATipsPanel
   m_TagString: Untagged
@@ -151,8 +150,6 @@ MonoBehaviour:
   WindowLayer: 3
   FullScreen: 0
   Mask: 0
-  OpenAnim: 1
-  CloseAnim: 1
   m_TipsText: {fileID: 6169579710850575537}
 --- !u!223 &-8622246102736086430
 Canvas:
@@ -194,18 +191,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 32
---- !u!225 &4317105956280380547
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6169579712005869335}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!1 &6169579712161869946
 GameObject:
   m_ObjectHideFlags: 0

@@ -306,7 +306,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 816033309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 816033309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfb5e980082980c4783d736ebab65534, type: 3}
+  m_Script: {fileID: 11500000, guid: a57fe3aaf2b1f964182d90c5546754d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   runAnimationName: run
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1803774489}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc1f52a5e27218449908aeca1b614a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d55a3bd6ac81af44b2f9a4447f2ae72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 816033310}

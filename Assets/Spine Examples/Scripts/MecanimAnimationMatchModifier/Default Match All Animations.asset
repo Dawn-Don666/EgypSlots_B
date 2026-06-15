@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 716213c165d1f014a8fc8473dae8f4a2, type: 3}
+  m_Script: {fileID: 11500000, guid: df7d457928e0f4041a439f9847f72290, type: 3}
   m_Name: Default Match All Animations
   m_EditorClassIdentifier: 
   matchAllAnimations: 1

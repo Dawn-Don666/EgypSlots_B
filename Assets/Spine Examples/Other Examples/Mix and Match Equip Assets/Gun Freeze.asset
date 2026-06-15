@@ -8,10 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10404573616e75b48b0c0731373b5075, type: 3}
+  m_Script: {fileID: 11500000, guid: dcf21dc1875a05044835c5a6c969bda4, type: 3}
   m_Name: Gun Freeze
   m_EditorClassIdentifier: 
   equipType: 0
-  sprite: {fileID: 21300000, guid: d020bbea0fa6f0a4a9e1c9e85a272707, type: 3}
+  sprite: {fileID: 21300000, guid: 02c4cbcce432ae74bb2d965060e64d29, type: 3}
   description: A freeze gun. There's nothing you can do.
   yourStats: 234

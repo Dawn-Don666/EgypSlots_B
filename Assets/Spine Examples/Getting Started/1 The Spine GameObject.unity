@@ -135,7 +135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 139638498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 3c48535ae5679204c950a22a7caaa5a4, type: 2}
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 139638498}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00950ab166beff1418876fc4417c95c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a5ef44bf3e0d864794c0da71c84363d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   blinkAnimation: {fileID: 11400000, guid: abea4790b61cd194eab5977fc16e095d, type: 2}

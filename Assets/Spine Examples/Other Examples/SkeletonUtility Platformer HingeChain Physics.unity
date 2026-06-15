@@ -205,7 +205,7 @@ GameObject:
   m_Layer: 0
   m_Name: forearm2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -231,7 +231,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 31046007}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: forearm2
@@ -258,7 +258,7 @@ GameObject:
   m_Layer: 0
   m_Name: cape3
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 47250610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: cape3
@@ -519,7 +519,7 @@ GameObject:
   m_Layer: 0
   m_Name: weapon-morningstar
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 155019144}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: weapon-morningstar
@@ -596,7 +596,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 176283719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b53d613071f17478da36f21e540952, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fc20d5e917562341a5007777a9d0db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   reference: {fileID: 155019145}
@@ -865,7 +865,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 275930195}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: weapon-morningstar-physics3
@@ -1016,7 +1016,7 @@ GameObject:
   m_Layer: 0
   m_Name: R_Ground
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 380101352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d35452f1d8deb469313cb0be6b27ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 3662334b99de5fe4396ab24e30c4fd12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   groundMask:
@@ -1049,7 +1049,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 380101352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: right-ground
@@ -1086,7 +1086,7 @@ GameObject:
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 419174876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: body
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 466644271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: weapon-morningstar-physics1
@@ -1824,7 +1824,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 658011008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ba22a2f8716bf40ae912f6626fe078, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f726fb798ad621458c431cb9966d91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneRoot: {fileID: 1776464689}
@@ -1838,7 +1838,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 658011008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 2f899e95232e6144786de8fb99678a8d, type: 2}
@@ -1911,7 +1911,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 658011008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ece2dc387833d74ab7c2cabe4f061a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0710ab226a06cfa4689c784fbd9d1753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   solverIterations: 30
@@ -2125,7 +2125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 697686539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: weapon-morningstar-physics4
@@ -2415,7 +2415,7 @@ GameObject:
   m_Layer: 0
   m_Name: hand2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2441,7 +2441,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 927506453}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: hand2
@@ -2574,7 +2574,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 957934624}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: weapon-morningstar-physics2
@@ -2611,7 +2611,7 @@ GameObject:
   m_Layer: 0
   m_Name: root
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2639,7 +2639,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 985424157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: root
@@ -2664,7 +2664,7 @@ GameObject:
   m_Layer: 0
   m_Name: L_Ground
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1018673310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6d35452f1d8deb469313cb0be6b27ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 3662334b99de5fe4396ab24e30c4fd12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   groundMask:
@@ -2710,7 +2710,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1018673310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: left-ground
@@ -3124,7 +3124,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178284505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a35a670003201c3419db7000cc51bb18, type: 3}
+  m_Script: {fileID: 11500000, guid: 6df2d8b571e22504284108b691b4a3cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1204355831}
@@ -6427,7 +6427,7 @@ GameObject:
   m_Layer: 0
   m_Name: hip
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -6453,7 +6453,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1194274637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: hip
@@ -6617,7 +6617,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d26b17d5ace460342b7aa7ad4efbbbd9, type: 3}
+  m_Script: {fileID: 11500000, guid: 27b3e3370f55c0a438ef0a10c2eba510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1204355832}
@@ -6641,7 +6641,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc1f52a5e27218449908aeca1b614a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d55a3bd6ac81af44b2f9a4447f2ae72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 658011011}
@@ -6659,7 +6659,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580018a241aef17488e79ad1ded6b754, type: 3}
+  m_Script: {fileID: 11500000, guid: dd8d49de34fd0724ca8c1ae3c44afe59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 658011011}
@@ -6696,7 +6696,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aff80424cef735428991b7362534024, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a0f8a82c5d8a334db6996478778b892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   eventSource: {fileID: 1204355833}
@@ -6958,7 +6958,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1299870862}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e67b7c766e73f94983545fd1889ef06, type: 3}
+  m_Script: {fileID: 11500000, guid: 456a736ebb92ebf4b959fa9c4b704427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   reference: {fileID: 1776464689}
@@ -7425,7 +7425,7 @@ GameObject:
   m_Layer: 0
   m_Name: upper-arm2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7451,7 +7451,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1528230945}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: upper-arm2
@@ -7697,7 +7697,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1640523864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b53d613071f17478da36f21e540952, type: 3}
+  m_Script: {fileID: 11500000, guid: 9fc20d5e917562341a5007777a9d0db2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   reference: {fileID: 1701901933}
@@ -7729,7 +7729,7 @@ GameObject:
   m_Layer: 0
   m_Name: cape2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7802,7 +7802,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1652966880}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: cape2
@@ -7839,7 +7839,7 @@ GameObject:
   m_Layer: 0
   m_Name: mantles
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7864,7 +7864,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1701901932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: mantles
@@ -7891,7 +7891,7 @@ GameObject:
   m_Layer: 0
   m_Name: cape-root
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7964,7 +7964,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1716446856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: cape-root
@@ -8004,7 +8004,7 @@ GameObject:
   m_Layer: 0
   m_Name: cape4
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8090,7 +8090,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1721407904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: cape4
@@ -8402,7 +8402,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1818813013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e67b7c766e73f94983545fd1889ef06, type: 3}
+  m_Script: {fileID: 11500000, guid: 456a736ebb92ebf4b959fa9c4b704427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   reference: {fileID: 1776464689}
@@ -8432,7 +8432,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1818813013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ece2dc387833d74ab7c2cabe4f061a9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0710ab226a06cfa4689c784fbd9d1753, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   solverIterations: 30
@@ -8944,7 +8944,7 @@ GameObject:
   m_Layer: 0
   m_Name: cape1
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -9017,7 +9017,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2048280405}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: cape1

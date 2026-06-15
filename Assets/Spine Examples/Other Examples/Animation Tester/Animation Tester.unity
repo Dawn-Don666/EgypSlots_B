@@ -195,7 +195,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 128310966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d281a1ba703ce784a9f17568150fad71, type: 3}
+  m_Script: {fileID: 11500000, guid: b99b2d8e59226fa4db070f241259fd98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 1460259495}
@@ -256,7 +256,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 128310966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fc1f52a5e27218449908aeca1b614a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d55a3bd6ac81af44b2f9a4447f2ae72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 1460259495}
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1460259494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: a467507a4ffb1d542a558739b2fede77, type: 2}
@@ -955,7 +955,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -16
-  m_Sprite: {fileID: 21300000, guid: c205eb77f79697b43867c653bbcb99b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.341}
   m_FlipX: 0
   m_FlipY: 0

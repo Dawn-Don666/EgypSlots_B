@@ -9,13 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ef56e2a70eebce4ca2e74252c6c2f5f, type: 3}
+  m_Script: {fileID: 11500000, guid: ebc0ba1b5ef6b4a6b9dd53d7eadfea16, type: 3}
   m_Name: AppLovinSettings
   m_EditorClassIdentifier: 
   qualityServiceEnabled: 1
-  sdkKey: zIzEt8UcuhGiu7YvlfGMyCY2JYgSb5ev7M0qe/+TDOWxVdZ8Y7deDx4Sh4G+wHp+FOSkbuBeaQ8HwMLntY3bQUz6uRdx1yGbdQX7l/iEUXhdvoAkf7+qVw==
+  sdkKey: KPGJdBx1Llhu2zzwEcHteya9DMY4hos5lmYbY69guG0L7gYp70a8SnCFcjITaUQOMNqLFT9G4jH0tu7RYUdTZlHbjbMQw2fBZUJ/bAX7HbLAdFIR06CszA==
   setAttributionReportEndpoint: 0
   customGradleVersionUrl: 
   customGradleToolsVersion: 
   adMobAndroidAppId: 
-  adMobIosAppId: 
+  adMobIosAppId: ca-app-pub-3073822658317083~1395113383

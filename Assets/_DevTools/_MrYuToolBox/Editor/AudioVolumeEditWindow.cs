@@ -9,8 +9,8 @@ using System;
 public class AudioVolumeEditWindow : EditorWindow
 {
     Vector3 scrollPos = Vector2.zero;
-    Dictionary<string, KneadTrove> UIAudioGroup;
-    Dictionary<string, KneadTrove> SceneAudioGroup;
+    Dictionary<string, AudioModel> UIAudioGroup;
+    Dictionary<string, AudioModel> SceneAudioGroup;
     //序列化对象
     protected SerializedObject _serializedObject;
     [MenuItem("遇先生工具包/一键[调音]")]
@@ -27,25 +27,25 @@ public class AudioVolumeEditWindow : EditorWindow
     }
     void refreshAudioData()
     {
-        UIAudioGroup = new Dictionary<string, KneadTrove>();
-        SceneAudioGroup = new Dictionary<string, KneadTrove>();
+        UIAudioGroup = new Dictionary<string, AudioModel>();
+        SceneAudioGroup = new Dictionary<string, AudioModel>();
 
         string Filepath = Application.streamingAssetsPath + "/Audio/AudioInfo" + ".json";
         Filepath = Filepath.Replace("StreamingAssets", "Resources");
         
         FileInfo FileInfo = new FileInfo(Filepath);
-        Dictionary<string, KneadTrove> audioDic = new Dictionary<string, KneadTrove>();
+        Dictionary<string, AudioModel> audioDic = new Dictionary<string, AudioModel>();
         if (FileInfo.Exists)
         {
             audioDic = LoadJson(Filepath);
         }
 
         //UI
-        foreach(object music in Enum.GetValues(typeof(SnowyUser.UIMusic)))
+        foreach(object music in Enum.GetValues(typeof(MusicType.UIMusic)))
         {
             string name = music.ToString();
             if (name == "None") continue;
-            KneadTrove model = new KneadTrove();
+            AudioModel model = new AudioModel();
             if (audioDic.ContainsKey(name))
             {
                 model = audioDic[name];
@@ -60,11 +60,11 @@ public class AudioVolumeEditWindow : EditorWindow
         }
 
         // Scene
-        foreach (object music in Enum.GetValues(typeof(SnowyUser.SceneMusic)))
+        foreach (object music in Enum.GetValues(typeof(MusicType.SceneMusic)))
         {
             string name = music.ToString();
             if (name == "None") continue;
-            KneadTrove model = new KneadTrove();
+            AudioModel model = new AudioModel();
             if (audioDic.ContainsKey(name))
             {
                 model = audioDic[name];
@@ -78,20 +78,20 @@ public class AudioVolumeEditWindow : EditorWindow
             SceneAudioGroup.Add(name, model);
         }
     }
-    public Dictionary<string, KneadTrove> LoadJson(string Filepath)
+    public Dictionary<string, AudioModel> LoadJson(string Filepath)
     {
         StreamReader reader = new StreamReader(Filepath);
         string jsonString = reader.ReadToEnd();
-        Dictionary<string, KneadTrove> audioGroup = JsonMapper.ToObject<Dictionary<string, KneadTrove>>(jsonString);
+        Dictionary<string, AudioModel> audioGroup = JsonMapper.ToObject<Dictionary<string, AudioModel>>(jsonString);
         reader.Dispose();
         reader.Close();
         return audioGroup;
     }
     public void SaveJson(string Filepath)
     {
-        Dictionary<string, KneadTrove> dic = new Dictionary<string, KneadTrove>();
-        MergeDictionaries.Stair(dic, UIAudioGroup);
-        MergeDictionaries.Stair(dic, SceneAudioGroup);
+        Dictionary<string, AudioModel> dic = new Dictionary<string, AudioModel>();
+        MergeDictionaries.Merge(dic, UIAudioGroup);
+        MergeDictionaries.Merge(dic, SceneAudioGroup);
         string JsonData = JsonMapper.ToJson(dic);
         StreamWriter ResourceWrite = new StreamWriter(Filepath);
         ResourceWrite.WriteLine(JsonData);

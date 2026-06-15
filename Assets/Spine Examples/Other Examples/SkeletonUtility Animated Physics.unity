@@ -178,7 +178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 120294520}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73ba22a2f8716bf40ae912f6626fe078, type: 3}
+  m_Script: {fileID: 11500000, guid: 7f726fb798ad621458c431cb9966d91d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneRoot: {fileID: 44654813}
@@ -192,7 +192,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 120294520}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 22c4b5e5a0fd9484d83b1aa705b9a54c, type: 2}
@@ -272,7 +272,7 @@ GameObject:
   m_Layer: 0
   m_Name: tail5
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 163089575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: tail5
@@ -385,7 +385,7 @@ GameObject:
   m_Layer: 0
   m_Name: rear_arm1
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -411,7 +411,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 196322038}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: rear_arm1
@@ -499,7 +499,7 @@ GameObject:
   m_Layer: 0
   m_Name: rear_hand
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 350419676}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: rear_hand
@@ -609,7 +609,7 @@ GameObject:
   m_Layer: 0
   m_Name: hip
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -636,7 +636,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 438622560}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: hip
@@ -663,7 +663,7 @@ GameObject:
   m_Layer: 0
   m_Name: front_arm2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 520760180}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: front_arm2
@@ -777,7 +777,7 @@ GameObject:
   m_Layer: 0
   m_Name: front_hand
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 574377922}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: front_hand
@@ -890,7 +890,7 @@ GameObject:
   m_Layer: 0
   m_Name: tail2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -977,7 +977,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 682744179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: tail2
@@ -1004,7 +1004,7 @@ GameObject:
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 733897517}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: head
@@ -1117,7 +1117,7 @@ GameObject:
   m_Layer: 0
   m_Name: rear_arm2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1143,7 +1143,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 871208808}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: rear_arm2
@@ -1228,7 +1228,7 @@ GameObject:
   m_Layer: 0
   m_Name: root
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 32523a1469016414fa1c08724b33d610, type: 3}
+  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1254,7 +1254,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 973814791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: root
@@ -1362,7 +1362,7 @@ GameObject:
   m_Layer: 0
   m_Name: tail4
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1449,7 +1449,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1261549069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: tail4
@@ -1476,7 +1476,7 @@ GameObject:
   m_Layer: 0
   m_Name: torso2
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1504,7 +1504,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1285379174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: torso2
@@ -1551,7 +1551,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1285379174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a769a405c61abfa4bbfa2b3413136033, type: 3}
+  m_Script: {fileID: 11500000, guid: cfeac06b8a6aa1645813700e3e4c0863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   detachedShadow: 0
@@ -1573,7 +1573,7 @@ GameObject:
   m_Layer: 0
   m_Name: tail1
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1599,7 +1599,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1342167691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a769a405c61abfa4bbfa2b3413136033, type: 3}
+  m_Script: {fileID: 11500000, guid: cfeac06b8a6aa1645813700e3e4c0863, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   detachedShadow: 0
@@ -1641,7 +1641,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1342167691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: tail1
@@ -1665,7 +1665,7 @@ GameObject:
   m_Layer: 0
   m_Name: torso1
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1691,7 +1691,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1421488703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: torso1
@@ -1718,7 +1718,7 @@ GameObject:
   m_Layer: 0
   m_Name: tail3
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1805,7 +1805,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1524588283}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: tail3
@@ -1832,7 +1832,7 @@ GameObject:
   m_Layer: 0
   m_Name: neck
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1858,7 +1858,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1714294601}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: neck
@@ -1946,7 +1946,7 @@ GameObject:
   m_Layer: 0
   m_Name: front_arm1
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: 74f17bc95a329674fa5a455a8d3dbd7a, type: 3}
+  m_Icon: {fileID: 2800000, guid: 97a43f11e00735147a9dc3dff6d68191, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1972,7 +1972,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1769886735}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9bd11b876a1044ba2092c0c7abd905, type: 3}
+  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: front_arm1

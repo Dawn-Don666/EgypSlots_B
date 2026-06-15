@@ -154,7 +154,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 432616239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1bba2a4e78b9df4aae9d66215ee63fb, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: b66cf7a186d13054989b33a5c90044e4, type: 2}
@@ -205,7 +205,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 432616239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 229d9666b96e5d14a9804164454a78df, type: 3}
+  m_Script: {fileID: 11500000, guid: 78ceaa27e3b3c27498dcdd7729ebad83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonGraphic: {fileID: 432616241}
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 432616239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87a1bf8805081a54bace1fc82fc6c73e, type: 3}
+  m_Script: {fileID: 11500000, guid: 243a062ac84ddf2468989143c0500a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonGraphic: {fileID: 432616241}
@@ -437,7 +437,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d12f870a24e903246a3bb1b099f66adb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de1fb4dac677a6d45ae2ad12a49091c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -753,7 +753,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 988957974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578798df0a5f78b4097128e37d97aa7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 26947ae098a8447408d80c0c86e35b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 988957978}
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 988957974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 2f899e95232e6144786de8fb99678a8d, type: 2}
@@ -1386,7 +1386,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1851462479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 784054e42b1ea374cb535eaf51bf4369, type: 2}
@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1851462479}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578798df0a5f78b4097128e37d97aa7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 26947ae098a8447408d80c0c86e35b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 1851462481}
@@ -1538,7 +1538,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2051539989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578798df0a5f78b4097128e37d97aa7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 26947ae098a8447408d80c0c86e35b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 2051539991}
@@ -1556,7 +1556,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2051539989}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 2f899e95232e6144786de8fb99678a8d, type: 2}

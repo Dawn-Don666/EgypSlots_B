@@ -8,10 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10404573616e75b48b0c0731373b5075, type: 3}
+  m_Script: {fileID: 11500000, guid: dcf21dc1875a05044835c5a6c969bda4, type: 3}
   m_Name: Goggles Tactical
   m_EditorClassIdentifier: 
   equipType: 1
-  sprite: {fileID: 21300000, guid: 353cfe5039432df439785f5d42b7686f, type: 3}
+  sprite: {fileID: 21300000, guid: 4f554405f8f06164db0773d689da243c, type: 3}
   description: Aimbot Goggles with super damage
   yourStats: 1241254

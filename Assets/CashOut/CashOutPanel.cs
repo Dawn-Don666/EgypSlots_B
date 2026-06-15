@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Runtime.InteropServices;
 
 /// <summary> 提现面板 </summary>
-public class CashOutPanel : FilmUIFetus
+public class CashOutPanel : BaseUIForms
 {
     public Button CloseBtn; // 关闭按钮
     public GameObject UpdateUI_Loading; // 整体页面的加载
@@ -86,17 +86,17 @@ public class CashOutPanel : FilmUIFetus
 
     private void Start()
     {
-        CashOutManager.TieRecharge()._CashOutPanel = this;
-        CloseBtn.onClick.AddListener(() => { TowerUIAkin(nameof(CashOutPanel)); });
+        CashOutManager.GetInstance()._CashOutPanel = this;
+        CloseBtn.onClick.AddListener(() => { CloseUIForm(nameof(CashOutPanel)); });
         CashOutBtn.onClick.AddListener(() => { OnCashOutBtn(); });
-        MoneyName = BatSizeSit.instance.EditJar_Lieu.MoneyName;
-        InfoText.text = BatSizeSit.instance.EditJar_Lieu.Description;
+        MoneyName = NetInfoMgr.instance.CashOut_Data.MoneyName;
+        InfoText.text = NetInfoMgr.instance.CashOut_Data.Description;
         InfoPanel_OpenBtn.onClick.AddListener(() => OpenPanel(InfoPanel));
         InfoPanel_CloseBtn.onClick.AddListener(() => ClosePanel(InfoPanel));
-        ContactBtn.GetComponent<Text>().text = BatSizeSit.instance.FilmToe;
+        ContactBtn.GetComponent<Text>().text = NetInfoMgr.instance.BaseUrl;
         ContactBtn.onClick.AddListener(() =>
         {
-            string url = BatSizeSit.instance.FilmToe;
+            string url = NetInfoMgr.instance.BaseUrl;
 #if UNITY_ANDROID || UNITY_EDITOR
             Application.OpenURL(url);
 #elif UNITY_IOS
@@ -107,7 +107,7 @@ public class CashOutPanel : FilmUIFetus
         {
             OpenPanel(RecordPanel);
             StartLoadingAnim(RecordPanel_Loading);
-            CashOutManager.TieRecharge().GetWithdrawRecord();
+            CashOutManager.GetInstance().GetWithdrawRecord();
         });
         RecordPanel_CloseBtn.onClick.AddListener(() => ClosePanel(RecordPanel));
         PageUpBtn.onClick.AddListener(() => PageUpBtnClick());
@@ -123,24 +123,24 @@ public class CashOutPanel : FilmUIFetus
         AccountInput.onEndEdit.AddListener((Info) => OnInputEnd());
         ConfirmAccountInput.onEndEdit.AddListener((Info) => OnInputEnd());
         AccountErrorText.text = "";
-        AccountText.text = CashOutManager.TieRecharge().Account;
-        Confirm_AccountText.text = CashOutManager.TieRecharge().Account;
+        AccountText.text = CashOutManager.GetInstance().Account;
+        Confirm_AccountText.text = CashOutManager.GetInstance().Account;
         if (string.IsNullOrEmpty(AccountText.text))
         {
             AccountText.text = "Account";
             Confirm_AccountText.text = "Account";
         }
-        IDText.text = "UID:" + CashOutManager.TieRecharge().Data.UserID;
+        IDText.text = "UID:" + CashOutManager.GetInstance().Data.UserID;
         PolicyBtn.onClick.AddListener(() =>
         {
-            string url = BatSizeSit.instance.FilmToe + "/privacy_policy.html";
+            string url = NetInfoMgr.instance.BaseUrl + "/privacy_policy.html";
 #if UNITY_ANDROID || UNITY_EDITOR
             Application.OpenURL(url);
 #elif UNITY_IOS
         openUrl(url);
 #endif
         });
-        PolicyToggle.isOn = MileLieuReelect.GetBool("CashOut_PolicyAgree");
+        PolicyToggle.isOn = SaveDataManager.GetBool("CashOut_PolicyAgree");
         ConfirmBtn.onClick.AddListener(() => OnConfimBtn());
         SbmitBtn.onClick.AddListener(() => { OnSbmitBtn(); });
         UpdateMoney();
@@ -155,13 +155,13 @@ public class CashOutPanel : FilmUIFetus
     public override void Hidding()
     {
         base.Hidding();
-        CashOutManager.TieRecharge().WaitToSendEvent1304();
+        CashOutManager.GetInstance().WaitToSendEvent1304();
     }
 
     public void UpdateUserInfo() //拉取用户信息 显示加载界面
     {
         //StartLoadingAnim(UpdateUI_Loading);
-        CashOutManager.TieRecharge().UpdateUserInfo();
+        CashOutManager.GetInstance().UpdateUserInfo();
     }
     public void UpdateTime(string timeStr) //更新剩余时间
     {
@@ -192,9 +192,9 @@ public class CashOutPanel : FilmUIFetus
     }
     void OnCashOutBtn() //点击提现 没账户则打开填账户面板 有账户打开确认面板
     {
-        if (CashOutManager.TieRecharge().Data == null)
+        if (CashOutManager.GetInstance().Data == null)
             return;
-        if (string.IsNullOrEmpty(CashOutManager.TieRecharge().Account))
+        if (string.IsNullOrEmpty(CashOutManager.GetInstance().Account))
         {
             OpenPanel(AccountPanel);
             return;
@@ -207,17 +207,17 @@ public class CashOutPanel : FilmUIFetus
         string ConfirmAccount = ConfirmAccountInput.text;
         if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(ConfirmAccount))
         {
-            WharfReelect.TieRecharge().SlowWharf("Account cannot be empty");
+            ToastManager.GetInstance().ShowToast("Account cannot be empty");
             return;
         }
         if (!string.IsNullOrEmpty(AccountErrorText.text))
         {
-            WharfReelect.TieRecharge().SlowWharf(AccountErrorText.text);
+            ToastManager.GetInstance().ShowToast(AccountErrorText.text);
             return;
         }
 
-        CashOutManager.TieRecharge().Account = AccountInput.text;
-        MileLieuReelect.SetString("CashOut_Account", AccountInput.text);
+        CashOutManager.GetInstance().Account = AccountInput.text;
+        SaveDataManager.SetString("CashOut_Account", AccountInput.text);
         AccountText.text = AccountInput.text;
         Confirm_AccountText.text = AccountInput.text;
         ClosePanel(AccountPanel);
@@ -234,13 +234,13 @@ public class CashOutPanel : FilmUIFetus
     {
         if (!PolicyToggle.isOn)
         {
-            WharfReelect.TieRecharge().SlowWharf("Please agree to the policy");
+            ToastManager.GetInstance().ShowToast("Please agree to the policy");
             return;
         }
-        MileLieuReelect.SetBool("CashOut_PolicyAgree", true);
+        SaveDataManager.SetBool("CashOut_PolicyAgree", true);
         StartLoadingAnim(CashOutBtn_Loading);
         StartLoadingAnim(SbmitBtn_Loading);
-        CashOutManager.TieRecharge().Withdraw();
+        CashOutManager.GetInstance().Withdraw();
     }
 
     public void UpdateMoney()
@@ -250,11 +250,11 @@ public class CashOutPanel : FilmUIFetus
         //文字滚动动画
         float MoneyStart = float.Parse(MoneyText.text, CultureInfo.CurrentCulture);
         Debug.Log("MoneyStart:" + MoneyStart);
-        float MoneyEnd = CashOutManager.TieRecharge().Money;
+        float MoneyEnd = CashOutManager.GetInstance().Money;
         DOTween.To(() => MoneyStart, x => MoneyText.text = x.ToString("N0"), MoneyEnd, 1f);
-        CashText.text = CashOutManager.TieRecharge().Data.Cash.ToString("F2");
+        CashText.text = CashOutManager.GetInstance().Data.Cash.ToString("F2");
         //进度条动画
-        float MaxMoney = float.Parse(BatSizeSit.instance.EditJar_Lieu.convert_goal, CultureInfo.CurrentCulture);
+        float MaxMoney = float.Parse(NetInfoMgr.instance.CashOut_Data.convert_goal, CultureInfo.CurrentCulture);
         DOTween.To(() => MaxMoneyFill.fillAmount, x => MaxMoneyFill.fillAmount = x, Mathf.Min(1, MoneyEnd / MaxMoney), 1f);
         DOTween.To(() => MoneyStart, x => MaxMoneyText.text = x.ToString("F2") + "/" + MaxMoney, MoneyEnd, 1f).OnComplete(() =>
         {
@@ -274,11 +274,11 @@ public class CashOutPanel : FilmUIFetus
         //文字滚动动画
         float MoneyStart = float.Parse(MoneyText.text, CultureInfo.CurrentCulture);
         float CashOutStart = float.Parse(CashText.text, CultureInfo.CurrentCulture);
-        float CashOutEnd = CashOutManager.TieRecharge().Data.Cash;
+        float CashOutEnd = CashOutManager.GetInstance().Data.Cash;
         DOTween.To(() => MoneyStart, x => MoneyText.text = x.ToString("N0"), 0, 1f);
         DOTween.To(() => CashOutStart, x => CashText.text = x.ToString("F2"), CashOutEnd, 1f).SetDelay(.7f);
         //进度条动画
-        float MaxMoney = float.Parse(BatSizeSit.instance.EditJar_Lieu.convert_goal, CultureInfo.CurrentCulture);
+        float MaxMoney = float.Parse(NetInfoMgr.instance.CashOut_Data.convert_goal, CultureInfo.CurrentCulture);
         DOTween.To(() => Mathf.Min(1, MoneyStart / MaxMoney), x => MaxMoneyFill.fillAmount = x, 0, 1f);
         DOTween.To(() => MoneyStart, x => MaxMoneyText.text = x.ToString("F2") + "/" + MaxMoney, 0, 1f);
         DesText.text = $"The more {MoneyName} you collect,the more rewards will be converted!";
@@ -286,21 +286,21 @@ public class CashOutPanel : FilmUIFetus
 
     public void UpdateTask() //刷新任务
     {
-        if (CashOutManager.TieRecharge().Data.TaskData != null && CashOutManager.TieRecharge().Data.TaskData.Name != "Null")
+        if (CashOutManager.GetInstance().Data.TaskData != null && CashOutManager.GetInstance().Data.TaskData.Name != "Null")
         {
             // Cash余额任务 不走前端进度统计 使用后台Data.Cash数值
-            if (CashOutManager.TieRecharge().Data.TaskData.Name == "Cash" && CashOutManager.TieRecharge().Data.Cash < CashOutManager.TieRecharge().Data.TaskData.Target)
+            if (CashOutManager.GetInstance().Data.TaskData.Name == "Cash" && CashOutManager.GetInstance().Data.Cash < CashOutManager.GetInstance().Data.TaskData.Target)
             {
                 CashOutBtn.gameObject.SetActive(false);
                 CashOutBtn_Task.SetActive(true);
-                CashOutBtn_Task_Text.text = string.Format(CashOutManager.TieRecharge().Data.TaskData.Description, CashOutManager.TieRecharge().Data.Cash, CashOutManager.TieRecharge().Data.TaskData.Target);
+                CashOutBtn_Task_Text.text = string.Format(CashOutManager.GetInstance().Data.TaskData.Description, CashOutManager.GetInstance().Data.Cash, CashOutManager.GetInstance().Data.TaskData.Target);
             }
             // 其他任务 前端统计任务完成进度 
-            else if (CashOutManager.TieRecharge().Data.TaskData.Name != "Cash" && CashOutManager.TieRecharge().Data.TaskData.NowValue < CashOutManager.TieRecharge().Data.TaskData.Target)
+            else if (CashOutManager.GetInstance().Data.TaskData.Name != "Cash" && CashOutManager.GetInstance().Data.TaskData.NowValue < CashOutManager.GetInstance().Data.TaskData.Target)
             {
                 CashOutBtn.gameObject.SetActive(false);
                 CashOutBtn_Task.SetActive(true);
-                CashOutBtn_Task_Text.text = string.Format(CashOutManager.TieRecharge().Data.TaskData.Description, CashOutManager.TieRecharge().Data.TaskData.NowValue, CashOutManager.TieRecharge().Data.TaskData.Target);
+                CashOutBtn_Task_Text.text = string.Format(CashOutManager.GetInstance().Data.TaskData.Description, CashOutManager.GetInstance().Data.TaskData.NowValue, CashOutManager.GetInstance().Data.TaskData.Target);
             }
             // 任务完成 显示提现按钮
             else
@@ -325,13 +325,13 @@ public class CashOutPanel : FilmUIFetus
         for (int i = 0; i < RecordItems.Length; i++)
             RecordItems[i].gameObject.SetActive(false);
 
-        if (CashOutManager.TieRecharge().Data.Record == null || CashOutManager.TieRecharge().Data.Record.Count == 0)
+        if (CashOutManager.GetInstance().Data.Record == null || CashOutManager.GetInstance().Data.Record.Count == 0)
         {
             NoRecordTip.SetActive(true);
             return;
         }
 
-        int RecordCount = CashOutManager.TieRecharge().Data.Record.Count;
+        int RecordCount = CashOutManager.GetInstance().Data.Record.Count;
         PageCount = RecordCount / 10;
         if (RecordCount % 10 != 0)
             PageCount++;
@@ -346,7 +346,7 @@ public class CashOutPanel : FilmUIFetus
 
         if (itemsToShow <= 0) return; // 安全检查
 
-        List<WithdrawRecordItem> OnePageRecord = CashOutManager.TieRecharge().Data.Record.GetRange(startIndex, itemsToShow);
+        List<WithdrawRecordItem> OnePageRecord = CashOutManager.GetInstance().Data.Record.GetRange(startIndex, itemsToShow);
         for (int i = 0; i < OnePageRecord.Count; i++)
         {
             RecordItems[i].gameObject.SetActive(true);
@@ -513,7 +513,7 @@ public class CashOutPanel : FilmUIFetus
 
         if (IsCashOutSuccess)
         {
-            WharfReelect.TieRecharge().SlowWharf("Withdraw success");
+            ToastManager.GetInstance().ShowToast("Withdraw success");
             ClosePanel(ConfirmAccountPanel);
         }
     }
@@ -576,6 +576,6 @@ public class CashOutPanel : FilmUIFetus
 
     public void SendEvent_1301() //打点 拉取数据成功 打开商店
     {
-        RomeClockRotate.TieRecharge().TourClock("1301", LeftTimeText.text, CashOutManager.TieRecharge().Money.ToString());
+        PostEventScript.GetInstance().SendEvent("1301", LeftTimeText.text, CashOutManager.GetInstance().Money.ToString());
     }
 }

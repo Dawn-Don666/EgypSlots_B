@@ -32,7 +32,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 0.85, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4484198204081644132}
+  m_Father: {fileID: 4484198204801222035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -90,16 +90,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 362864976912428125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5daf8c658b43bc746819115ed566f94c, type: 3}
+  m_Script: {fileID: 11500000, guid: a6744a688f6d32348a457acfdab030ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RutSmoky:
+  topColor:
     serializedVersion: 2
     rgba: 4286835967
-  VeniceSmoky:
+  bottomColor:
     serializedVersion: 2
     rgba: 4283580159
-  Patrol: 0.5
+  center: 0.5
 --- !u!114 &60921847247718773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,13 +109,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 362864976912428125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fa6f711c5beb2a46838c856a5a303ad, type: 3}
+  m_Script: {fileID: 11500000, guid: 9146dd8d03998704e9a0ab13e4e62f02, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _amount: 12
-  _Arthritis: 1
+  _thickness: 3
   _offset: {x: 0, y: 0}
-  _AndNestling: 0
+  _useGradient: 0
   _color: {r: 0.3019608, g: 0.227451, b: 0.59607846, a: 1}
   gradient:
     serializedVersion: 2
@@ -147,7 +147,7 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  ColonistBulldozer: 1
+  gradientDirection: 1
 --- !u!1 &523377213456279731
 GameObject:
   m_ObjectHideFlags: 0
@@ -156,7 +156,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3148855004933574996}
+  - component: {fileID: 3148855004936770026}
   - component: {fileID: 1039916350405589735}
   - component: {fileID: 743845614240175044}
   m_Layer: 5
@@ -166,7 +166,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3148855004933574996
+--- !u!224 &3148855004936770026
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,7 +179,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3027786493656463345}
-  m_Father: {fileID: 4484198204081644132}
+  m_Father: {fileID: 4484198204801222035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 523377213456279731}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d936a1a275c3f448a57cb7a3d6d4ab4, type: 3}
+  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -298,7 +298,7 @@ RectTransform:
   - {fileID: 6024744680965894322}
   - {fileID: 6008673817152328718}
   - {fileID: 1831162636033121630}
-  m_Father: {fileID: 4484198204081644132}
+  m_Father: {fileID: 4484198204801222035}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2538720778363696660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1bba2a4e78b9df4aae9d66215ee63fb, type: 3}
+  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: b66cf7a186d13054989b33a5c90044e4, type: 2}
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5785b12c079f1cc49ace1d49a3cabf44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 241bc4e6d19abc84ba072ef1fd75e10f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b61ea73fa3d2cd8488e3a281c4e12a4b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cd618772737049848be13f69791c8f7d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -663,7 +663,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3027786493656463345}
   - component: {fileID: 7844402890097932485}
-  - component: {fileID: 8611892398846767826}
+  - component: {fileID: 8611892398340691580}
   m_Layer: 0
   m_Name: light
   m_TagString: Untagged
@@ -684,7 +684,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3148855004933574996}
+  m_Father: {fileID: 3148855004936770026}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!198 &7844402890097932485
 ParticleSystem:
@@ -5409,7 +5409,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &8611892398846767826
+--- !u!199 &8611892398340691580
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -5483,7 +5483,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!1 &7071930174791154280
+--- !u!1 &7071930174074337419
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5491,10 +5491,10 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4484198204081644132}
+  - component: {fileID: 4484198204801222035}
   - component: {fileID: 5933751907374647171}
   - component: {fileID: 6576733276196693516}
-  - component: {fileID: 606791347813001750}
+  - component: {fileID: 606791347901265670}
   - component: {fileID: 5493843766232927527}
   m_Layer: 5
   m_Name: LuckyJar_Scatter
@@ -5503,19 +5503,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &4484198204081644132
+--- !u!224 &4484198204801222035
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071930174791154280}
+  m_GameObject: {fileID: 7071930174074337419}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3148855004933574996}
+  - {fileID: 3148855004936770026}
   - {fileID: 3242252895831121989}
   - {fileID: 7779679271145936527}
   m_Father: {fileID: 0}
@@ -5531,7 +5531,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071930174791154280}
+  m_GameObject: {fileID: 7071930174074337419}
   m_CullTransparentMesh: 1
 --- !u!114 &6576733276196693516
 MonoBehaviour:
@@ -5539,7 +5539,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071930174791154280}
+  m_GameObject: {fileID: 7071930174074337419}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -5563,13 +5563,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &606791347813001750
+--- !u!114 &606791347901265670
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071930174791154280}
+  m_GameObject: {fileID: 7071930174074337419}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -5613,13 +5613,13 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7071930174791154280}
+  m_GameObject: {fileID: 7071930174074337419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14c4a02bcc1f2b0439506277c2bb7cfb, type: 3}
+  m_Script: {fileID: 11500000, guid: 410a1dbf899a79f43a8a5c1144711ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BGQuote: {fileID: 523377213456279731}
-  AbsorbUse: {fileID: 8129190854663924600}
-  Soft: {fileID: 3780719929815306484}
-  Absorb: {fileID: 6024744680965894322}
+  BGLight: {fileID: 523377213456279731}
+  rewardTxt: {fileID: 8129190854663924600}
+  anim: {fileID: 3780719929815306484}
+  reward: {fileID: 6024744680965894322}

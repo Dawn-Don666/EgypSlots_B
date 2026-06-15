@@ -26,12 +26,12 @@ public class DebugWindow : OdinEditorWindow
     // 增加资源数
     private void AddItem()
     {
-        DivisionHerd.Instance.AgeFineLoose(itemType, ItemNum);
+        ResourceCtrl.Instance.AddItemValue(itemType, ItemNum);
     }
     // 设置资源数
     private void ResetItem()
     {
-        DivisionHerd.Instance.PigFineLoose(itemType, ItemNum);
+        ResourceCtrl.Instance.SetItemValue(itemType, ItemNum);
     }
 
     [HorizontalGroup("Level", LabelWidth = 60)]
@@ -42,15 +42,15 @@ public class DebugWindow : OdinEditorWindow
     public int level;
     private void StartLevel()
     {
-        FiftyHerd.Instance.CrawlFifty(level);
+        LevelCtrl.Instance.StartLevel(level);
     }
     private void FinishLevel()
     {
-        FiftyHerd.Instance.FiftyCurrier();
+        LevelCtrl.Instance.LevelVictory();
     }
     private void StartNextLevel()
     {
         level++;
-        FiftyHerd.Instance.CrawlFifty(level);
+        LevelCtrl.Instance.StartLevel(level);
     }
 }

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using LitJson;
@@ -11,7 +11,7 @@ using System.Linq;
 public enum LoginPlatform { Android, IOS }
 
 /// <summary> 提现功能管理 </summary>
-public class CashOutManager : RestChristian<CashOutManager>
+public class CashOutManager : MonoSingleton<CashOutManager>
 {
     [Header("登录平台")]
     public LoginPlatform _LoginPlatform = LoginPlatform.Android;
@@ -37,8 +37,8 @@ public class CashOutManager : RestChristian<CashOutManager>
     #region 游戏逻辑
     private void Start()
     {
-        Account = MileLieuReelect.GetString("CashOut_Account");
-        Money = MileLieuReelect.GetFloat("CashOut_Money");
+        Account = SaveDataManager.GetString("CashOut_Account");
+        Money = SaveDataManager.GetFloat("CashOut_Money");
     }
 
     private void OnApplicationPause(bool pauseStatus)
@@ -47,11 +47,11 @@ public class CashOutManager : RestChristian<CashOutManager>
         if (pauseStatus && Seconds > 0)
         {
             string title = "Your reward is ready!";
-            string info = $"All {BatSizeSit.instance.EditJar_Lieu.MoneyName} have been converted,Please check your rewards!";
-            EccentricityReelect.Recharge.RenewEccentricity();
-            EccentricityReelect.Recharge.AdequateEccentricity(title, info, (int)Seconds);
+            string info = $"All {NetInfoMgr.instance.CashOut_Data.MoneyName} have been converted,Please check your rewards!";
+            NotificationManager.Instance.ClearNotification();
+            NotificationManager.Instance.ScheduleNotification(title, info, (int)Seconds);
             for (int i = 0; i < 10; i++) // 10次延时 10800秒 3小时
-                EccentricityReelect.Recharge.AdequateEccentricity(title, info, (int)Seconds + (i * 10800));
+                NotificationManager.Instance.ScheduleNotification(title, info, (int)Seconds + (i * 10800));
         }
 
         if (pauseStatus)
@@ -93,7 +93,7 @@ public class CashOutManager : RestChristian<CashOutManager>
 
 
             //任务
-            if (BatSizeSit.instance.EditJar_Lieu != null && BatSizeSit.instance.EditJar_Lieu.TaskList.Count > 0)
+            if (NetInfoMgr.instance.CashOut_Data != null && NetInfoMgr.instance.CashOut_Data.TaskList.Count > 0)
             {
                 //记录第一次登录日期utc
                 if (!PlayerPrefs.HasKey("CashOut_FirstLoginTime"))
@@ -119,10 +119,10 @@ public class CashOutManager : RestChristian<CashOutManager>
                 }
                 //计算今天距离第一次登录过了几天
                 int Day = (DateTime.UtcNow.Date - DateTime.Parse(PlayerPrefs.GetString("CashOut_FirstLoginTime"))).Days;
-                if (Day >= BatSizeSit.instance.EditJar_Lieu.TaskList.Count) //一天一任务 天数超出任务数量显示默认任务
-                    Data.TaskData = BatSizeSit.instance.EditJar_Lieu.TaskList.FirstOrDefault(t => t.IsDefault);
+                if (Day >= NetInfoMgr.instance.CashOut_Data.TaskList.Count) //一天一任务 天数超出任务数量显示默认任务
+                    Data.TaskData = NetInfoMgr.instance.CashOut_Data.TaskList.FirstOrDefault(t => t.IsDefault);
                 else
-                    Data.TaskData = BatSizeSit.instance.EditJar_Lieu.TaskList[Day];
+                    Data.TaskData = NetInfoMgr.instance.CashOut_Data.TaskList[Day];
                 Data.TaskData.NowValue = PlayerPrefs.GetFloat("CashOut_TaskValue");
             }
         }
@@ -131,7 +131,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     public void AddMoney(float Value)
     {
         Money += Value;
-        MileLieuReelect.SetFloat("CashOut_Money", Money);
+        SaveDataManager.SetFloat("CashOut_Money", Money);
         _CashOutPanel?.UpdateMoney();
         _CashOutEnter?.UpdateMoney();
     }
@@ -149,7 +149,7 @@ public class CashOutManager : RestChristian<CashOutManager>
         CancelInvoke(nameof(Count1304Time));
         if (Event_1304Time <= 0)
             return;
-        RomeClockRotate.TieRecharge().TourClock("1304", Event_1304Time.ToString());
+        PostEventScript.GetInstance().SendEvent("1304", Event_1304Time.ToString());
         Event_1304Time = 0;
     }
 
@@ -185,7 +185,7 @@ public class CashOutManager : RestChristian<CashOutManager>
         {
             {"app-version", Application.version},
             {"lang", I2.Loc.LocalizationManager.CurrentLanguageCode},
-            {"Authorization", MileLieuReelect.GetString("CashOut_Token")},
+            {"Authorization", SaveDataManager.GetString("CashOut_Token")},
             {"platform", WithdrawPlatform},
             {"os-version", ""},
             {"device-name", ""},
@@ -196,7 +196,7 @@ public class CashOutManager : RestChristian<CashOutManager>
         {
             {"app-version", Application.version},
             {"lang", I2.Loc.LocalizationManager.CurrentLanguageCode},
-            {"Authorization", MileLieuReelect.GetString("CashOut_Token")},
+            {"Authorization", SaveDataManager.GetString("CashOut_Token")},
             {"platform", WithdrawPlatform},
             {"os-version", GetOperatingSystem()},
             {"device-name", SystemInfo.deviceName},
@@ -249,7 +249,7 @@ public class CashOutManager : RestChristian<CashOutManager>
         if (_LoginPlatform == LoginPlatform.Android)
         {
             Platform = "Android";
-            DeviceAdId = MileLieuReelect.GetString("gaid");
+            DeviceAdId = SaveDataManager.GetString("gaid");
             if (Application.platform == RuntimePlatform.Android)
             {
                 AndroidJavaClass aj = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
@@ -261,13 +261,13 @@ public class CashOutManager : RestChristian<CashOutManager>
         {
             Platform = "iOS";
             Manufacturer = "Apple";
-            DeviceAdId = MileLieuReelect.GetString("idfv");
+            DeviceAdId = SaveDataManager.GetString("idfv");
         }
         StringBuilder uuidsb = new StringBuilder();
         uuidsb.Append(SystemInfo.deviceUniqueIdentifier);
         //UUID存在不同应用相同ID的情况 用SystemInfo.deviceUniqueIdentifier + AppInfo 
-        bool isNewPlayer = !PlayerPrefs.HasKey(CUnfair.Of_BeJoyWeaver + "Bool") || MileLieuReelect.GetBool(CUnfair.Of_BeJoyWeaver);
-        bool hasuuidAndAppid = MileLieuReelect.GetBool("UuidAndAPPid");
+        bool isNewPlayer = !PlayerPrefs.HasKey(CConfig.sv_IsNewPlayer + "Bool") || SaveDataManager.GetBool(CConfig.sv_IsNewPlayer);
+        bool hasuuidAndAppid = SaveDataManager.GetBool("UuidAndAPPid");
         if (isNewPlayer || hasuuidAndAppid) //新老用户兼容
             uuidsb.Append(AppInfo);
         var loginRequest = new Request_Login
@@ -287,7 +287,7 @@ public class CashOutManager : RestChristian<CashOutManager>
         string loginUrl = $"{BaseUrl}/login";
         CashOutLog($"请求登录  请求体: {jsonBody}", false);
 
-        BatMayaReelect.TieRecharge().SomeRomeGene(
+        NetWorkManager.GetInstance().HttpPostJson(
             url: loginUrl,
             jsonData: jsonBody,
             success: (result) =>
@@ -299,11 +299,11 @@ public class CashOutManager : RestChristian<CashOutManager>
                     {
                         CashOutLog("登录成功 数据： " + result.downloadHandler.text, false, true);
                         //UUID 新老用户兼容
-                        bool isNewPlayer = !PlayerPrefs.HasKey(CUnfair.Of_BeJoyWeaver + "Bool") || MileLieuReelect.GetBool(CUnfair.Of_BeJoyWeaver);
+                        bool isNewPlayer = !PlayerPrefs.HasKey(CConfig.sv_IsNewPlayer + "Bool") || SaveDataManager.GetBool(CConfig.sv_IsNewPlayer);
                         if (isNewPlayer)
-                            MileLieuReelect.SetBool("UuidAndAPPid", true);
+                            SaveDataManager.SetBool("UuidAndAPPid", true);
                         //刷新token 获取提现规则
-                        MileLieuReelect.SetString("CashOut_Token", response.data.token);
+                        SaveDataManager.SetString("CashOut_Token", response.data.token);
                         GetWithdrawRule();
                         //整理数据
                         Data = new CashOutResponseData();
@@ -311,14 +311,14 @@ public class CashOutManager : RestChristian<CashOutManager>
                         Data.Cash = float.Parse(response.data.cash, CultureInfo.InvariantCulture);
                         DateTime ConvertTime = DateTime.Parse(response.data.convert_time);
                         if (PlayerPrefs.HasKey("CashOut_ConvertTime"))
-                            Data.ConvertTime = long.Parse(MileLieuReelect.GetString("CashOut_ConvertTime"));
+                            Data.ConvertTime = long.Parse(SaveDataManager.GetString("CashOut_ConvertTime"));
                         if (Data.ConvertTime < ConvertTime.Ticks)
                         {
                             Money = 0;
-                            MileLieuReelect.SetFloat("CashOut_Money", Money);
+                            SaveDataManager.SetFloat("CashOut_Money", Money);
                         }
                         Data.ConvertTime = ConvertTime.Ticks;
-                        MileLieuReelect.SetString("CashOut_ConvertTime", Data.ConvertTime.ToString());
+                        SaveDataManager.SetString("CashOut_ConvertTime", Data.ConvertTime.ToString());
                         InvokeRepeating(nameof(TimeCount), 1, 1);
 
                         // 更新UI
@@ -339,7 +339,7 @@ public class CashOutManager : RestChristian<CashOutManager>
                     }
                     else
                     {
-                        WharfReelect.TieRecharge().SlowWharf("Login fail :" + response.msg);
+                        ToastManager.GetInstance().ShowToast("Login fail :" + response.msg);
 
                         CashOutLog($"登录失败: {response.msg}", true);
                         CashOutLog("1. 如果报错是 app not found，检查包名和真提现后台ID是否填对，如果都对 联系乔梁删后台错误数据", true);
@@ -356,7 +356,7 @@ public class CashOutManager : RestChristian<CashOutManager>
             fail: () =>
             {
                 CashOutLog("登录请求失败", true);
-                WharfReelect.TieRecharge().SlowWharf("Login fail");
+                ToastManager.GetInstance().ShowToast("Login fail");
                 Ready = false;
             },
             timeout: 3f,
@@ -368,7 +368,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     {
         CancelInvoke(nameof(TimeCount));
         string url = $"{BaseUrl}/user";
-        BatMayaReelect.TieRecharge().SomeTie(
+        NetWorkManager.GetInstance().HttpGet(
             url: url,
             success: (result) =>
             {
@@ -380,14 +380,14 @@ public class CashOutManager : RestChristian<CashOutManager>
                         CashOutLog("用户信息数据： " + result.downloadHandler.text, false, true);
                         string Event_Money = Money.ToString();
 
-                        double OldCash = MileLieuReelect.GetDouble("CashOut_Cash");
+                        double OldCash = SaveDataManager.GetDouble("CashOut_Cash");
                         float NewCash = float.Parse(response.data.cash, CultureInfo.InvariantCulture);
                         DateTime ConvertTime = DateTime.Parse(response.data.convert_time);
                         //当前时间小于后台时间 代表新一轮转换开始 清空Money
                         if (Data.ConvertTime < ConvertTime.Ticks)
                         {
                             Money = 0;
-                            MileLieuReelect.SetFloat("CashOut_Money", Money);
+                            SaveDataManager.SetFloat("CashOut_Money", Money);
                         }
                         if (Money == 0)
                         {
@@ -398,7 +398,7 @@ public class CashOutManager : RestChristian<CashOutManager>
 
                             //打点 如果钱转化了 上报转化信息
                             if (IsIconFly)
-                                RomeClockRotate.TieRecharge().TourClock("1302", Event_Money, NewCash.ToString());
+                                PostEventScript.GetInstance().SendEvent("1302", Event_Money, NewCash.ToString());
                         }
                         else
                         {
@@ -407,11 +407,11 @@ public class CashOutManager : RestChristian<CashOutManager>
                             _CashOutEnter?.UpdateMoney();
                         }
                         Data.ConvertTime = ConvertTime.Ticks;
-                        MileLieuReelect.SetString("CashOut_ConvertTime", Data.ConvertTime.ToString());
+                        SaveDataManager.SetString("CashOut_ConvertTime", Data.ConvertTime.ToString());
                         Data.Cash = NewCash;
 
                         InvokeRepeating(nameof(TimeCount), 0, 1);
-                        MileLieuReelect.SetDouble("CashOut_Cash", Data.Cash);
+                        SaveDataManager.SetDouble("CashOut_Cash", Data.Cash);
                         _CashOutPanel?.CloseLoading_UpdateUI();
                     }
                     else
@@ -437,7 +437,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     {
         string url = $"{BaseUrl}/withdraw/rule?platform={WithdrawPlatform}";
 
-        BatMayaReelect.TieRecharge().SomeTie(
+        NetWorkManager.GetInstance().HttpGet(
             url: url,
             success: (result) =>
             {
@@ -472,7 +472,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     {
         if (Data.Cash < MinWithdrawCount)
         {
-            WharfReelect.TieRecharge().SlowWharf($"Minimum withdrawal amount {MinWithdrawCount}");
+            ToastManager.GetInstance().ShowToast($"Minimum withdrawal amount {MinWithdrawCount}");
             _CashOutPanel?.CloseLoading_Withdraw(true);
             string Amount = Data.Cash.ToString("F2", System.Globalization.CultureInfo.InvariantCulture);
             SendWithdrawEvent(Amount, false);
@@ -491,7 +491,7 @@ public class CashOutManager : RestChristian<CashOutManager>
         string jsonBody = JsonMapper.ToJson(withdrawRequest);
         string url = $"{BaseUrl}/withdraw";
 
-        BatMayaReelect.TieRecharge().SomeRomeGene(
+        NetWorkManager.GetInstance().HttpPostJson(
             url: url,
             jsonData: jsonBody,
             success: (result) =>
@@ -506,7 +506,7 @@ public class CashOutManager : RestChristian<CashOutManager>
                         _CashOutPanel?.UpdateUserInfo();
 
                         //发送完成体现事件
-                        RomeClockRotate.TieRecharge().TourHeBergClock("1306");
+                        PostEventScript.GetInstance().SendNoParaEvent("1306");
 
                         SendWithdrawEvent(withdrawRequest.amount, true);
                     }
@@ -522,7 +522,7 @@ public class CashOutManager : RestChristian<CashOutManager>
                 {
                     CashOutLog($"解析提现响应数据失败: {e.Message}", true);
                     _CashOutPanel?.CloseLoading_Withdraw();
-                    WharfReelect.TieRecharge().SlowWharf("Withdraw fail :" + e.Message);
+                    ToastManager.GetInstance().ShowToast("Withdraw fail :" + e.Message);
 
                     SendWithdrawEvent(withdrawRequest.amount, false);
                 }
@@ -540,13 +540,13 @@ public class CashOutManager : RestChristian<CashOutManager>
     }
     void SendWithdrawEvent(string Event_Cash, bool IsSuccess) //打点 提现成功或失败
     {
-        RomeClockRotate.TieRecharge().TourClock("1303", Event_Cash, IsSuccess ? "1" : "0");
+        PostEventScript.GetInstance().SendEvent("1303", Event_Cash, IsSuccess ? "1" : "0");
     }
 
     public void GetWithdrawRecord() // 获取提现记录
     {
         string url = $"{BaseUrl}/withdraw";
-        BatMayaReelect.TieRecharge().SomeTie(
+        NetWorkManager.GetInstance().HttpGet(
             url: url,
             success: (result) =>
             {
@@ -600,7 +600,7 @@ public class CashOutManager : RestChristian<CashOutManager>
         string jsonBody = JsonMapper.ToJson(requestData);
         CashOutLog($"上报ecpmURL: {url}  请求体: {jsonBody}", false);
 
-        BatMayaReelect.TieRecharge().SomeRomeGene(
+        NetWorkManager.GetInstance().HttpPostJson(
             url: url,
             jsonData: jsonBody,
             success: (result) =>
@@ -652,10 +652,10 @@ public class CashOutManager : RestChristian<CashOutManager>
     {
         string url = $"{BaseUrl}/user/ad";
         RequestData_ReportAdjustID requestData = new RequestData_ReportAdjustID();
-        requestData.id = RemoteRakeReelect.Instance.TieRemoteRoam();
+        requestData.id = AdjustInitManager.Instance.GetAdjustAdid();
         string jsonBody = JsonMapper.ToJson(requestData);
         CashOutLog($"上报adjust_idURL: {url}  请求体: {jsonBody}", false);
-        BatMayaReelect.TieRecharge().SomeRomeGene(
+        NetWorkManager.GetInstance().HttpPostJson(
             url: url,
             jsonData: jsonBody,
             success: (result) =>
@@ -690,7 +690,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     void GetClientIP() // 获取客户端IP
     {
         string url = "http://ip-api.com/json/?key=NN3ExblXQt2Esoy";
-        BatMayaReelect.TieRecharge().SomeTie(
+        NetWorkManager.GetInstance().HttpGet(
             url: url,
             success: (result) =>
             {
@@ -725,7 +725,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     void GetRealIP_Step1() // 获取真实IP网址
     {
         string url = "https://nstool.netease.com/";
-        BatMayaReelect.TieRecharge().SomeTie(
+        NetWorkManager.GetInstance().HttpGet(
             url: url,
             success: (result) =>
             {
@@ -755,7 +755,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     }
     void GetRealIP_Step2(string url) // 获取真实IP
     {
-        BatMayaReelect.TieRecharge().SomeTie(
+        NetWorkManager.GetInstance().HttpGet(
            url: url,
            success: (result) =>
            {
@@ -787,7 +787,7 @@ public class CashOutManager : RestChristian<CashOutManager>
     {
         CashOutLog("上报ID  客户端Ip：" + ClientIP + "  真实Ip：" + RealIP);
         string url = $"{BaseUrl}/user/meta";
-        BatMayaReelect.TieRecharge().SomeRomeGene(
+        NetWorkManager.GetInstance().HttpPostJson(
             url: url,
             jsonData: GetReportIDsBody(),
             success: (result) =>
@@ -828,7 +828,7 @@ public class CashOutManager : RestChristian<CashOutManager>
 
     public void ReportEvent(int type, string string_0 = null, string string_1 = null, int? big_int_0 = null) // 上报事件
     {
-        if (string.IsNullOrEmpty(MileLieuReelect.GetString("CashOut_Token")))
+        if (string.IsNullOrEmpty(SaveDataManager.GetString("CashOut_Token")))
         {
             CashOutLog($"没Token不上报事件{type}", true);
             return;
@@ -852,7 +852,7 @@ public class CashOutManager : RestChristian<CashOutManager>
 
         string url = $"{BaseUrl}/event";
         CashOutLog($"上报事件{type}  请求体: {JsonMapper.ToJson(EventRequest)}", false);
-        BatMayaReelect.TieRecharge().SomeRomeGene(
+        NetWorkManager.GetInstance().HttpPostJson(
             url: url,
             jsonData: JsonMapper.ToJson(EventRequest),
             success: (result) =>
@@ -954,7 +954,7 @@ public class CashOutManager : RestChristian<CashOutManager>
             _CashOutPanel?.UpdateTask();
             if (PlayerPrefs.GetInt("TaskEventReported") == 0 && NewValue >= Data.TaskData.Target)
             {
-                RomeClockRotate.TieRecharge().TourClock("1305", Name, NewValue.ToString(), Data.TaskData.IsDefault.ToString());
+                PostEventScript.GetInstance().SendEvent("1305", Name, NewValue.ToString(), Data.TaskData.IsDefault.ToString());
                 PlayerPrefs.SetInt("TaskEventReported", 1);
             }
         }

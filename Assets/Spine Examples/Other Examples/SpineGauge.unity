@@ -135,7 +135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 282891642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578798df0a5f78b4097128e37d97aa7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 26947ae098a8447408d80c0c86e35b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 282891644}
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 282891642}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: a467507a4ffb1d542a558739b2fede77, type: 2}
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 351144566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9ac12de996cdde458106b4a78d28dc0, type: 3}
+  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: a467507a4ffb1d542a558739b2fede77, type: 2}
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 351144566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 578798df0a5f78b4097128e37d97aa7c, type: 3}
+  m_Script: {fileID: 11500000, guid: 26947ae098a8447408d80c0c86e35b48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 351144567}
@@ -364,7 +364,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 351144566}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e106245074b318b44943ef442fb91ad1, type: 3}
+  m_Script: {fileID: 11500000, guid: 395f769061839bf488f157c37d23835d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   flashCount: 3
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 795271513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99a60042626236746bd2ba7c4c0954b2, type: 3}
+  m_Script: {fileID: 11500000, guid: c888ce38da699d143a68153f26379a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   fillPercent: 1
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 795271513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b7d4aac4a9d92458e7de28b9b02953, type: 3}
+  m_Script: {fileID: 11500000, guid: e075b9a3e08e2f74fbd651c858ab16ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 22b19a38b21c15a48854f0db86b0b7d3, type: 2}
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1025516229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23ae213e2f5425e4b8ce3acfa4e8eef4, type: 3}
+  m_Script: {fileID: 11500000, guid: 7eab8e63d650dc74c80d142cd4b9fe4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   spineboy: {fileID: 351144567}

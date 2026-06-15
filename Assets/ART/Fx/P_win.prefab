@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4902276659534035098}
+  - component: {fileID: 4902276659642041814}
   - component: {fileID: 259692378288655657}
-  - component: {fileID: 1287976741379195600}
+  - component: {fileID: 1287976741052546653}
   m_Layer: 5
   m_Name: P_Win
   m_TagString: Untagged
@@ -18,7 +18,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &4902276659534035098
+--- !u!224 &4902276659642041814
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,7 +33,7 @@ RectTransform:
   - {fileID: 801415286148952585}
   - {fileID: 9072458291323279346}
   - {fileID: 8829604875394523820}
-  m_Father: {fileID: 6818888218595837450}
+  m_Father: {fileID: 6818888218673192172}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4763,7 +4763,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &1287976741379195600
+--- !u!199 &1287976741052546653
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -4846,8 +4846,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9072458291323279346}
-  - component: {fileID: 8453052835426262709}
-  - component: {fileID: 857318681249901473}
+  - component: {fileID: 8453052835552661354}
+  - component: {fileID: 857318681654483366}
   m_Layer: 5
   m_Name: par_quan
   m_TagString: Untagged
@@ -4867,14 +4867,14 @@ RectTransform:
   m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4902276659534035098}
+  m_Father: {fileID: 4902276659642041814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!198 &8453052835426262709
+--- !u!198 &8453052835552661354
 ParticleSystem:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9664,7 +9664,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &857318681249901473
+--- !u!199 &857318681654483366
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -9748,7 +9748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8829604875394523820}
   - component: {fileID: 2147746966092569640}
-  - component: {fileID: 3968776864042328559}
+  - component: {fileID: 3968776864917999115}
   m_Layer: 5
   m_Name: par_quan (1)
   m_TagString: Untagged
@@ -9768,7 +9768,7 @@ RectTransform:
   m_LocalScale: {x: 1.6, y: 1.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4902276659534035098}
+  m_Father: {fileID: 4902276659642041814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -14498,7 +14498,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &3968776864042328559
+--- !u!199 &3968776864917999115
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0
@@ -14572,7 +14572,7 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
---- !u!1 &2677753059349680114
+--- !u!1 &2677753059327267686
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14580,9 +14580,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6818888218595837450}
+  - component: {fileID: 6818888218673192172}
   - component: {fileID: 8171164942981051127}
-  - component: {fileID: 7058124149598107669}
+  - component: {fileID: 7058124149581145178}
   m_Layer: 0
   m_Name: P_win
   m_TagString: Untagged
@@ -14590,19 +14590,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &6818888218595837450
+--- !u!224 &6818888218673192172
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677753059349680114}
+  m_GameObject: {fileID: 2677753059327267686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4902276659534035098}
+  - {fileID: 4902276659642041814}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -14616,18 +14616,18 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677753059349680114}
+  m_GameObject: {fileID: 2677753059327267686}
   m_CullTransparentMesh: 1
---- !u!114 &7058124149598107669
+--- !u!114 &7058124149581145178
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2677753059349680114}
+  m_GameObject: {fileID: 2677753059327267686}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d936a1a275c3f448a57cb7a3d6d4ab4, type: 3}
+  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -14646,7 +14646,7 @@ MonoBehaviour:
   m_Particles:
   - {fileID: 259692378288655657}
   - {fileID: 2998147696354954458}
-  - {fileID: 8453052835426262709}
+  - {fileID: 8453052835552661354}
   - {fileID: 2147746966092569640}
   m_MeshSharing: 0
   m_GroupId: 0
@@ -14667,7 +14667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 801415286148952585}
   - component: {fileID: 2998147696354954458}
-  - component: {fileID: 6459245977814480628}
+  - component: {fileID: 6459245977793458202}
   m_Layer: 5
   m_Name: par_sphere
   m_TagString: Untagged
@@ -14687,7 +14687,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4902276659534035098}
+  m_Father: {fileID: 4902276659642041814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -19417,7 +19417,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
---- !u!199 &6459245977814480628
+--- !u!199 &6459245977793458202
 ParticleSystemRenderer:
   serializedVersion: 6
   m_ObjectHideFlags: 0

@@ -44,7 +44,7 @@ public class BuildEditScript : MonoBehaviour
             isSame = false;
             Debug.Log("包名");
         }
-        if (Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].FilmToe != info.BaseUrl)
+        if (Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].BaseUrl != info.BaseUrl)
         {
             isSame = false;
             Debug.Log("域名");
@@ -54,22 +54,22 @@ public class BuildEditScript : MonoBehaviour
             isSame = false;
             Debug.Log("max key");
         }
-        if (Resources.FindObjectsOfTypeAll<ADReelect>()[0].MAX_SDK_KEY != info.Applovin_SDK_KEY)
+        if (Resources.FindObjectsOfTypeAll<ADManager>()[0].MAX_SDK_KEY != info.Applovin_SDK_KEY)
         {
             isSame = false;
             Debug.Log("admanager key");
         }
-        if (Resources.FindObjectsOfTypeAll<ADReelect>()[0].MAX_REWARD_ID != info.Applovin_REWARD_ID)
+        if (Resources.FindObjectsOfTypeAll<ADManager>()[0].MAX_REWARD_ID != info.Applovin_REWARD_ID)
         {
             isSame = false;
             Debug.Log("reward id");
         }
-        if (Resources.FindObjectsOfTypeAll<ADReelect>()[0].MAX_INTER_ID != info.Applovin_INTER_ID)
+        if (Resources.FindObjectsOfTypeAll<ADManager>()[0].MAX_INTER_ID != info.Applovin_INTER_ID)
         {
             isSame = false;
             Debug.Log("inter id");
         }
-        if (Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].SinkDeaf != info.GameCode)
+        if (Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].GameCode != info.GameCode)
         {
             isSame = false;
             Debug.Log("gamecode");
@@ -155,9 +155,9 @@ public class BuildEditScript : MonoBehaviour
         AssetDatabase.Refresh();
         //EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());
 
-        Resources.FindObjectsOfTypeAll<ADReelect>()[0].MAX_SDK_KEY = info.Applovin_SDK_KEY;
-        Resources.FindObjectsOfTypeAll<ADReelect>()[0].MAX_REWARD_ID = info.Applovin_REWARD_ID;
-        Resources.FindObjectsOfTypeAll<ADReelect>()[0].MAX_INTER_ID = info.Applovin_INTER_ID;
+        Resources.FindObjectsOfTypeAll<ADManager>()[0].MAX_SDK_KEY = info.Applovin_SDK_KEY;
+        Resources.FindObjectsOfTypeAll<ADManager>()[0].MAX_REWARD_ID = info.Applovin_REWARD_ID;
+        Resources.FindObjectsOfTypeAll<ADManager>()[0].MAX_INTER_ID = info.Applovin_INTER_ID;
 
         UnityEditorInternal.ComponentUtility.CopyComponent(GameObject.Find("Adjust").GetComponent<com.adjust.sdk.Adjust>());
         GameObject adjustObj = new GameObject();
@@ -171,30 +171,30 @@ public class BuildEditScript : MonoBehaviour
         adjustObj.GetComponent<com.adjust.sdk.Adjust>().eventBuffering = false;
         adjustObj.GetComponent<com.adjust.sdk.Adjust>().sendInBackground = false;
         adjustObj.GetComponent<com.adjust.sdk.Adjust>().launchDeferredDeeplink = true;
-        if (!GameObject.Find("MainManager") || !GameObject.Find("MainManager").GetComponent<RemoteRakeReelect>())
+        if (!GameObject.Find("MainManager") || !GameObject.Find("MainManager").GetComponent<AdjustInitManager>())
         {
             if (GameObject.Find("MainManager"))
             {
-                GameObject.Find("MainManager").AddComponent<RemoteRakeReelect>();
+                GameObject.Find("MainManager").AddComponent<AdjustInitManager>();
             }
             else
             {
                 GameObject mainObj = new GameObject("MainManager");
-                mainObj.AddComponent<RemoteRakeReelect>();
+                mainObj.AddComponent<AdjustInitManager>();
             }
         }
-        GameObject.Find("MainManager").GetComponent<RemoteRakeReelect>().FacadeID = info.Adjust_APP_ID;
+        GameObject.Find("MainManager").GetComponent<AdjustInitManager>().adjustID = info.Adjust_APP_ID;
 
-        if (!GameObject.Find("MainManager").GetComponent<CornMeReelect>())
+        if (!GameObject.Find("MainManager").GetComponent<RateUsManager>())
         {
-            GameObject.Find("MainManager").AddComponent<CornMeReelect>();
+            GameObject.Find("MainManager").AddComponent<RateUsManager>();
         }
 
 #if UNITY_IOS
-        GameObject.Find("MainManager").GetComponent<CornMeReelect>().appid = info.Rate_ID;
+        GameObject.Find("MainManager").GetComponent<RateUsManager>().appid = info.Rate_ID;
 #endif
 #if UNITY_ANDROID
-        GameObject.Find("MainManager").GetComponent<CornMeReelect>().appid = info.PackageName;
+        GameObject.Find("MainManager").GetComponent<RateUsManager>().appid = info.PackageName;
 #endif
 
         GameObject.Find("MainManager").GetComponent<CashOutManager>()._LoginPlatform = (LoginPlatform)info.ZT_LoginPlatform;
@@ -204,27 +204,27 @@ public class BuildEditScript : MonoBehaviour
         string modifiedUrl = info.BaseUrl.Insert(index, insertStr);
         GameObject.Find("MainManager").GetComponent<CashOutManager>().BaseUrl = modifiedUrl;
 
-        Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].SinkDeaf = info.GameCode;
-        Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].FilmToe = info.BaseUrl;
-        Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].FilmDiverToe = info.BaseUrl + CUnfair.DiverToe;
-        Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].FilmUnfairToe = info.BaseUrl + CUnfair.UnfairToe;
-        Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].FilmAnewToe = info.BaseUrl + CUnfair.AnewToe;
-        Resources.FindObjectsOfTypeAll<BatSizeSit>()[0].FilmRemoteToe = info.BaseUrl + CUnfair.RemoteToe;
+        Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].GameCode = info.GameCode;
+        Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].BaseUrl = info.BaseUrl;
+        Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].BaseLoginUrl = info.BaseUrl + CConfig.LoginUrl;
+        Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].BaseConfigUrl = info.BaseUrl + CConfig.ConfigUrl;
+        Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].BaseTimeUrl = info.BaseUrl + CConfig.TimeUrl;
+        Resources.FindObjectsOfTypeAll<NetInfoMgr>()[0].BaseAdjustUrl = info.BaseUrl + CConfig.AdjustUrl;
         EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());
 
 #if UNITY_IOS
-        string url = info.BaseUrl + CUnfair.UnfairToe + info.GameCode + "&channel=" + "AppStore" + "&version=" + buildWindow.Version;
+        string url = info.BaseUrl + CConfig.ConfigUrl + info.GameCode + "&channel=" + "AppStore" + "&version=" + buildWindow.Version;
 #elif UNITY_ANDROID
-        string url = info.BaseUrl + CUnfair.ConfigUrl + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
+        string url = info.BaseUrl + CConfig.ConfigUrl + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
 #else
-        string url = info.BaseUrl + CUnfair.ConfigUrl + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
+        string url = info.BaseUrl + CConfig.ConfigUrl + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
 #endif
 
-        BatMayaReelect.TieRecharge().SomeTie(url,
+        NetWorkManager.GetInstance().HttpGet(url,
        (data) =>
        {
            Debug.Log("ServerData 成功" + data.downloadHandler.text);
-           MileLieuReelect.SetString("OnlineData", data.downloadHandler.text);
+           SaveDataManager.SetString("OnlineData", data.downloadHandler.text);
            RootData rootData = JsonMapper.ToObject<RootData>(data.downloadHandler.text);
            //if (rootData.data.apple_pie != "apple")
            {
@@ -233,9 +233,9 @@ public class BuildEditScript : MonoBehaviour
                EditorUtility.DisplayDialog("改值成功", "", "确定");
                WriteJsonFromStreamingAssetsPath("/" + "LocationJson" + "/" + "LocationData.txt", locationStr);
                Debug.Log("Build Success");
-               if (GameObject.Find("BatMayaReelect"))
+               if (GameObject.Find("NetWorkManager"))
                {
-                   DestroyImmediate(GameObject.Find("BatMayaReelect"));
+                   DestroyImmediate(GameObject.Find("NetWorkManager"));
                }
            }
        },
@@ -243,9 +243,9 @@ public class BuildEditScript : MonoBehaviour
        {
            Debug.Log("ServerData 失败");
            EditorUtility.DisplayDialog("改值失败", "请检查网络", "确定");
-           if (GameObject.Find("BatMayaReelect"))
+           if (GameObject.Find("NetWorkManager"))
            {
-               DestroyImmediate(GameObject.Find("BatMayaReelect"));
+               DestroyImmediate(GameObject.Find("NetWorkManager"));
            }
            return;
        });
