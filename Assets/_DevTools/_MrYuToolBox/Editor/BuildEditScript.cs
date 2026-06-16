@@ -57,7 +57,7 @@ public class BuildEditScript : MonoBehaviour
         if (Resources.FindObjectsOfTypeAll<ADFinnish>()[0].MAX_SDK_KEY != info.Applovin_SDK_KEY)
         {
             isSame = false;
-            Debug.Log("AxFinnish key");
+            Debug.Log("ADFinnish key");
         }
         if (Resources.FindObjectsOfTypeAll<ADFinnish>()[0].MAX_REWARD_ID != info.Applovin_REWARD_ID)
         {
@@ -215,9 +215,9 @@ public class BuildEditScript : MonoBehaviour
 #if UNITY_IOS
         string url = info.BaseUrl + CShaper.ShaperShy + info.GameCode + "&channel=" + "AppStore" + "&version=" + buildWindow.Version;
 #elif UNITY_ANDROID
-        string url = info.BaseUrl + CConfig.ShaperShy + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
+        string url = info.BaseUrl + CShaper.ShaperShy + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
 #else
-        string url = info.BaseUrl + CConfig.ShaperShy + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
+        string url = info.BaseUrl + CShaper.ShaperShy + info.GameCode + "&channel=" + "GooglePlay" + "&version=" + buildWindow.Version;
 #endif
 
         AgoLifeFinnish.RatRuminate().ChicRat(url,
@@ -233,9 +233,9 @@ public class BuildEditScript : MonoBehaviour
                EditorUtility.DisplayDialog("改值成功", "", "确定");
                WriteJsonFromStreamingAssetsPath("/" + "LocationJson" + "/" + "LocationData.txt", locationStr);
                Debug.Log("Build Success");
-               if (GameObject.Find("NetWorkManager"))
+               if (GameObject.Find("AgoLifeFinnish"))
                {
-                   DestroyImmediate(GameObject.Find("NetWorkManager"));
+                   DestroyImmediate(GameObject.Find("AgoLifeFinnish"));
                }
            }
        },
@@ -243,9 +243,9 @@ public class BuildEditScript : MonoBehaviour
        {
            Debug.Log("ServerData 失败");
            EditorUtility.DisplayDialog("改值失败", "请检查网络", "确定");
-           if (GameObject.Find("NetWorkManager"))
+           if (GameObject.Find("AgoLifeFinnish"))
            {
-               DestroyImmediate(GameObject.Find("NetWorkManager"));
+               DestroyImmediate(GameObject.Find("AgoLifeFinnish"));
            }
            return;
        });
