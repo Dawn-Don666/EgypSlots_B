@@ -216,7 +216,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 267173954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 267173954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c70a5b35f6ff2541aed8e8346b7e4d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fc4ba0ed64f1cf409f0d726214e92a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 267173955}
@@ -339,7 +339,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dc1b9f9665c8aa74799404a1d2038e3d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3ab7785130de22c408cd50e1c031d2ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -381,7 +381,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dc1b9f9665c8aa74799404a1d2038e3d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3ab7785130de22c408cd50e1c031d2ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1476882951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0b968d1e7333b499e347acb644f1c1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8e8e3e27a0a4dc458d3ba68b9aa70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1476882953
@@ -504,7 +504,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: dc1b9f9665c8aa74799404a1d2038e3d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3ab7785130de22c408cd50e1c031d2ee, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1573089137}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1fd8daaed7b64148a34acb96ba14ce1, type: 3}
+  m_Script: {fileID: 11500000, guid: 79333cc1e9404e04ea0f93eeed121688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 267173955}
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1738947315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: a515487a7cc6cca479d8c7c700c9145d, type: 2}
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1776944551}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0b968d1e7333b499e347acb644f1c1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8e8e3e27a0a4dc458d3ba68b9aa70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1776944553

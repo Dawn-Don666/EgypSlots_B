@@ -45,7 +45,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 674777751820602501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d20df93fb7de8457baa15a213a53ab19, type: 3}
+  m_Script: {fileID: 11500000, guid: 47741bbee04b8fc4da63c8ddd7d41c2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: -8404250095460277587, guid: 467545e1cb04a457cb322ddd400e03f6, type: 3}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a6ae458264a4a8e42a10f166c8becc96, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8ca64d6239fcb854fa10d93a5925eed3, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5013591337710553179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df337f93430edac488b1ddbd824df4d4, type: 3}
+  m_Script: {fileID: 11500000, guid: aa6ee3c6cd35293449fa656e875699c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TargetCamera: {fileID: 0}
@@ -393,7 +393,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7fde4c9141938aa43bb4719fda47aad8, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d0fe467af6ff5b24b9786b8d71cc39ae, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.25
   m_Pitch: 1

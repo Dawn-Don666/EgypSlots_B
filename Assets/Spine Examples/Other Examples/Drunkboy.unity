@@ -210,7 +210,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 21238537}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: front-upper-arm
@@ -234,7 +234,7 @@ GameObject:
   m_Layer: 0
   m_Name: root
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
+  m_Icon: {fileID: 2800000, guid: 8f51b059eb67a2843940b24fb0dcb270, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 43338986}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: root
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 103730714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: front-bracer
@@ -599,7 +599,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 264945296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 890d2c67cc206cd4e8a426391c4ccbba, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c8c899abdae5b5428608cfb2ac2dee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   timeScale: 1
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 264945296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 264945296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f726fb798ad621458c431cb9966d91d, type: 3}
+  m_Script: {fileID: 11500000, guid: 32c985e48987f7049915d3f4507d9802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneRoot: {fileID: 1469977169}
@@ -921,7 +921,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 264945296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d25b0011a425714fbf011e46794c140, type: 3}
+  m_Script: {fileID: 11500000, guid: 1643061d7bb4dab4ca747f21887b30b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   footPlanter: {fileID: 264945297}
@@ -942,7 +942,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 264945296}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e5835d0f54ec08459236279886bfa66, type: 3}
+  m_Script: {fileID: 11500000, guid: 36df830ca5346e64ba6e812c7e5a0517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   planter: {fileID: 264945297}
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 811443163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ac0a69923492d1b4aa7ca656033ec6a3, type: 3}
+  m_Script: {fileID: 11500000, guid: accf9ca738c36ca48a1ff1e130ae6337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &811443166
@@ -1132,7 +1132,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 811443163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d655607dd16c7f644a73bd10fc7370b1, type: 3}
+  m_Script: {fileID: 11500000, guid: 3bc1f9d15f839274f896ef0308097b78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   reloadKey: 114
@@ -1210,7 +1210,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1307,7 +1307,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 909672552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: torso2
@@ -1509,7 +1509,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 976482692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: front-fist
@@ -1595,7 +1595,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1656,7 +1656,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1194544915}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: hip
@@ -1828,7 +1828,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1828877179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfeac06b8a6aa1645813700e3e4c0863, type: 3}
+  m_Script: {fileID: 11500000, guid: 993ec435af216ee4f957fdd7f55ad455, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   detachedShadow: 1
@@ -1843,7 +1843,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1828877179}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: torso3
@@ -1921,7 +1921,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2099995168}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: torso

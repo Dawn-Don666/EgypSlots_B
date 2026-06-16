@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Runtime.InteropServices;
 
 /// <summary> 提现面板 </summary>
-public class CashOutPanel : BaseUIForms
+public class CashOutPanel : AeroUIOnset
 {
     public Button CloseBtn; // 关闭按钮
     public GameObject UpdateUI_Loading; // 整体页面的加载
@@ -86,17 +86,17 @@ public class CashOutPanel : BaseUIForms
 
     private void Start()
     {
-        CashOutManager.GetInstance()._CashOutPanel = this;
-        CloseBtn.onClick.AddListener(() => { CloseUIForm(nameof(CashOutPanel)); });
+        CashOutManager.RatRuminate()._CashOutPanel = this;
+        CloseBtn.onClick.AddListener(() => { CaputUIEach(nameof(CashOutPanel)); });
         CashOutBtn.onClick.AddListener(() => { OnCashOutBtn(); });
-        MoneyName = NetInfoMgr.instance.CashOut_Data.MoneyName;
-        InfoText.text = NetInfoMgr.instance.CashOut_Data.Description;
+        MoneyName = AgoSateHit.instance.TangTie_Tang.MoneyName;
+        InfoText.text = AgoSateHit.instance.TangTie_Tang.Description;
         InfoPanel_OpenBtn.onClick.AddListener(() => OpenPanel(InfoPanel));
         InfoPanel_CloseBtn.onClick.AddListener(() => ClosePanel(InfoPanel));
-        ContactBtn.GetComponent<Text>().text = NetInfoMgr.instance.BaseUrl;
+        ContactBtn.GetComponent<Text>().text = AgoSateHit.instance.AeroShy;
         ContactBtn.onClick.AddListener(() =>
         {
-            string url = NetInfoMgr.instance.BaseUrl;
+            string url = AgoSateHit.instance.AeroShy;
 #if UNITY_ANDROID || UNITY_EDITOR
             Application.OpenURL(url);
 #elif UNITY_IOS
@@ -107,7 +107,7 @@ public class CashOutPanel : BaseUIForms
         {
             OpenPanel(RecordPanel);
             StartLoadingAnim(RecordPanel_Loading);
-            CashOutManager.GetInstance().GetWithdrawRecord();
+            CashOutManager.RatRuminate().GetWithdrawRecord();
         });
         RecordPanel_CloseBtn.onClick.AddListener(() => ClosePanel(RecordPanel));
         PageUpBtn.onClick.AddListener(() => PageUpBtnClick());
@@ -123,24 +123,24 @@ public class CashOutPanel : BaseUIForms
         AccountInput.onEndEdit.AddListener((Info) => OnInputEnd());
         ConfirmAccountInput.onEndEdit.AddListener((Info) => OnInputEnd());
         AccountErrorText.text = "";
-        AccountText.text = CashOutManager.GetInstance().Account;
-        Confirm_AccountText.text = CashOutManager.GetInstance().Account;
+        AccountText.text = CashOutManager.RatRuminate().Account;
+        Confirm_AccountText.text = CashOutManager.RatRuminate().Account;
         if (string.IsNullOrEmpty(AccountText.text))
         {
             AccountText.text = "Account";
             Confirm_AccountText.text = "Account";
         }
-        IDText.text = "UID:" + CashOutManager.GetInstance().Data.UserID;
+        IDText.text = "UID:" + CashOutManager.RatRuminate().Data.UserID;
         PolicyBtn.onClick.AddListener(() =>
         {
-            string url = NetInfoMgr.instance.BaseUrl + "/privacy_policy.html";
+            string url = AgoSateHit.instance.AeroShy + "/privacy_policy.html";
 #if UNITY_ANDROID || UNITY_EDITOR
             Application.OpenURL(url);
 #elif UNITY_IOS
         openUrl(url);
 #endif
         });
-        PolicyToggle.isOn = SaveDataManager.GetBool("CashOut_PolicyAgree");
+        PolicyToggle.isOn = HalfTangFinnish.GetBool("CashOut_PolicyAgree");
         ConfirmBtn.onClick.AddListener(() => OnConfimBtn());
         SbmitBtn.onClick.AddListener(() => { OnSbmitBtn(); });
         UpdateMoney();
@@ -155,13 +155,13 @@ public class CashOutPanel : BaseUIForms
     public override void Hidding()
     {
         base.Hidding();
-        CashOutManager.GetInstance().WaitToSendEvent1304();
+        CashOutManager.RatRuminate().WaitToSendEvent1304();
     }
 
     public void UpdateUserInfo() //拉取用户信息 显示加载界面
     {
         //StartLoadingAnim(UpdateUI_Loading);
-        CashOutManager.GetInstance().UpdateUserInfo();
+        CashOutManager.RatRuminate().UpdateUserInfo();
     }
     public void UpdateTime(string timeStr) //更新剩余时间
     {
@@ -192,9 +192,9 @@ public class CashOutPanel : BaseUIForms
     }
     void OnCashOutBtn() //点击提现 没账户则打开填账户面板 有账户打开确认面板
     {
-        if (CashOutManager.GetInstance().Data == null)
+        if (CashOutManager.RatRuminate().Data == null)
             return;
-        if (string.IsNullOrEmpty(CashOutManager.GetInstance().Account))
+        if (string.IsNullOrEmpty(CashOutManager.RatRuminate().Account))
         {
             OpenPanel(AccountPanel);
             return;
@@ -207,17 +207,17 @@ public class CashOutPanel : BaseUIForms
         string ConfirmAccount = ConfirmAccountInput.text;
         if (string.IsNullOrEmpty(Account) || string.IsNullOrEmpty(ConfirmAccount))
         {
-            ToastManager.GetInstance().ShowToast("Account cannot be empty");
+            MedalFinnish.RatRuminate().WithMedal("Account cannot be empty");
             return;
         }
         if (!string.IsNullOrEmpty(AccountErrorText.text))
         {
-            ToastManager.GetInstance().ShowToast(AccountErrorText.text);
+            MedalFinnish.RatRuminate().WithMedal(AccountErrorText.text);
             return;
         }
 
-        CashOutManager.GetInstance().Account = AccountInput.text;
-        SaveDataManager.SetString("CashOut_Account", AccountInput.text);
+        CashOutManager.RatRuminate().Account = AccountInput.text;
+        HalfTangFinnish.SetString("CashOut_Account", AccountInput.text);
         AccountText.text = AccountInput.text;
         Confirm_AccountText.text = AccountInput.text;
         ClosePanel(AccountPanel);
@@ -234,13 +234,13 @@ public class CashOutPanel : BaseUIForms
     {
         if (!PolicyToggle.isOn)
         {
-            ToastManager.GetInstance().ShowToast("Please agree to the policy");
+            MedalFinnish.RatRuminate().WithMedal("Please agree to the policy");
             return;
         }
-        SaveDataManager.SetBool("CashOut_PolicyAgree", true);
+        HalfTangFinnish.SetBool("CashOut_PolicyAgree", true);
         StartLoadingAnim(CashOutBtn_Loading);
         StartLoadingAnim(SbmitBtn_Loading);
-        CashOutManager.GetInstance().Withdraw();
+        CashOutManager.RatRuminate().Withdraw();
     }
 
     public void UpdateMoney()
@@ -250,11 +250,11 @@ public class CashOutPanel : BaseUIForms
         //文字滚动动画
         float MoneyStart = float.Parse(MoneyText.text, CultureInfo.CurrentCulture);
         Debug.Log("MoneyStart:" + MoneyStart);
-        float MoneyEnd = CashOutManager.GetInstance().Money;
+        float MoneyEnd = CashOutManager.RatRuminate().Money;
         DOTween.To(() => MoneyStart, x => MoneyText.text = x.ToString("N0"), MoneyEnd, 1f);
-        CashText.text = CashOutManager.GetInstance().Data.Cash.ToString("F2");
+        CashText.text = CashOutManager.RatRuminate().Data.Cash.ToString("F2");
         //进度条动画
-        float MaxMoney = float.Parse(NetInfoMgr.instance.CashOut_Data.convert_goal, CultureInfo.CurrentCulture);
+        float MaxMoney = float.Parse(AgoSateHit.instance.TangTie_Tang.convert_goal, CultureInfo.CurrentCulture);
         DOTween.To(() => MaxMoneyFill.fillAmount, x => MaxMoneyFill.fillAmount = x, Mathf.Min(1, MoneyEnd / MaxMoney), 1f);
         DOTween.To(() => MoneyStart, x => MaxMoneyText.text = x.ToString("F2") + "/" + MaxMoney, MoneyEnd, 1f).OnComplete(() =>
         {
@@ -274,11 +274,11 @@ public class CashOutPanel : BaseUIForms
         //文字滚动动画
         float MoneyStart = float.Parse(MoneyText.text, CultureInfo.CurrentCulture);
         float CashOutStart = float.Parse(CashText.text, CultureInfo.CurrentCulture);
-        float CashOutEnd = CashOutManager.GetInstance().Data.Cash;
+        float CashOutEnd = CashOutManager.RatRuminate().Data.Cash;
         DOTween.To(() => MoneyStart, x => MoneyText.text = x.ToString("N0"), 0, 1f);
         DOTween.To(() => CashOutStart, x => CashText.text = x.ToString("F2"), CashOutEnd, 1f).SetDelay(.7f);
         //进度条动画
-        float MaxMoney = float.Parse(NetInfoMgr.instance.CashOut_Data.convert_goal, CultureInfo.CurrentCulture);
+        float MaxMoney = float.Parse(AgoSateHit.instance.TangTie_Tang.convert_goal, CultureInfo.CurrentCulture);
         DOTween.To(() => Mathf.Min(1, MoneyStart / MaxMoney), x => MaxMoneyFill.fillAmount = x, 0, 1f);
         DOTween.To(() => MoneyStart, x => MaxMoneyText.text = x.ToString("F2") + "/" + MaxMoney, 0, 1f);
         DesText.text = $"The more {MoneyName} you collect,the more rewards will be converted!";
@@ -286,21 +286,21 @@ public class CashOutPanel : BaseUIForms
 
     public void UpdateTask() //刷新任务
     {
-        if (CashOutManager.GetInstance().Data.TaskData != null && CashOutManager.GetInstance().Data.TaskData.Name != "Null")
+        if (CashOutManager.RatRuminate().Data.TaskData != null && CashOutManager.RatRuminate().Data.TaskData.Name != "Null")
         {
             // Cash余额任务 不走前端进度统计 使用后台Data.Cash数值
-            if (CashOutManager.GetInstance().Data.TaskData.Name == "Cash" && CashOutManager.GetInstance().Data.Cash < CashOutManager.GetInstance().Data.TaskData.Target)
+            if (CashOutManager.RatRuminate().Data.TaskData.Name == "Cash" && CashOutManager.RatRuminate().Data.Cash < CashOutManager.RatRuminate().Data.TaskData.Target)
             {
                 CashOutBtn.gameObject.SetActive(false);
                 CashOutBtn_Task.SetActive(true);
-                CashOutBtn_Task_Text.text = string.Format(CashOutManager.GetInstance().Data.TaskData.Description, CashOutManager.GetInstance().Data.Cash, CashOutManager.GetInstance().Data.TaskData.Target);
+                CashOutBtn_Task_Text.text = string.Format(CashOutManager.RatRuminate().Data.TaskData.Description, CashOutManager.RatRuminate().Data.Cash, CashOutManager.RatRuminate().Data.TaskData.Target);
             }
             // 其他任务 前端统计任务完成进度 
-            else if (CashOutManager.GetInstance().Data.TaskData.Name != "Cash" && CashOutManager.GetInstance().Data.TaskData.NowValue < CashOutManager.GetInstance().Data.TaskData.Target)
+            else if (CashOutManager.RatRuminate().Data.TaskData.Name != "Cash" && CashOutManager.RatRuminate().Data.TaskData.NowValue < CashOutManager.RatRuminate().Data.TaskData.Target)
             {
                 CashOutBtn.gameObject.SetActive(false);
                 CashOutBtn_Task.SetActive(true);
-                CashOutBtn_Task_Text.text = string.Format(CashOutManager.GetInstance().Data.TaskData.Description, CashOutManager.GetInstance().Data.TaskData.NowValue, CashOutManager.GetInstance().Data.TaskData.Target);
+                CashOutBtn_Task_Text.text = string.Format(CashOutManager.RatRuminate().Data.TaskData.Description, CashOutManager.RatRuminate().Data.TaskData.NowValue, CashOutManager.RatRuminate().Data.TaskData.Target);
             }
             // 任务完成 显示提现按钮
             else
@@ -325,13 +325,13 @@ public class CashOutPanel : BaseUIForms
         for (int i = 0; i < RecordItems.Length; i++)
             RecordItems[i].gameObject.SetActive(false);
 
-        if (CashOutManager.GetInstance().Data.Record == null || CashOutManager.GetInstance().Data.Record.Count == 0)
+        if (CashOutManager.RatRuminate().Data.Record == null || CashOutManager.RatRuminate().Data.Record.Count == 0)
         {
             NoRecordTip.SetActive(true);
             return;
         }
 
-        int RecordCount = CashOutManager.GetInstance().Data.Record.Count;
+        int RecordCount = CashOutManager.RatRuminate().Data.Record.Count;
         PageCount = RecordCount / 10;
         if (RecordCount % 10 != 0)
             PageCount++;
@@ -346,7 +346,7 @@ public class CashOutPanel : BaseUIForms
 
         if (itemsToShow <= 0) return; // 安全检查
 
-        List<WithdrawRecordItem> OnePageRecord = CashOutManager.GetInstance().Data.Record.GetRange(startIndex, itemsToShow);
+        List<WithdrawRecordItem> OnePageRecord = CashOutManager.RatRuminate().Data.Record.GetRange(startIndex, itemsToShow);
         for (int i = 0; i < OnePageRecord.Count; i++)
         {
             RecordItems[i].gameObject.SetActive(true);
@@ -513,7 +513,7 @@ public class CashOutPanel : BaseUIForms
 
         if (IsCashOutSuccess)
         {
-            ToastManager.GetInstance().ShowToast("Withdraw success");
+            MedalFinnish.RatRuminate().WithMedal("Withdraw success");
             ClosePanel(ConfirmAccountPanel);
         }
     }
@@ -576,6 +576,6 @@ public class CashOutPanel : BaseUIForms
 
     public void SendEvent_1301() //打点 拉取数据成功 打开商店
     {
-        PostEventScript.GetInstance().SendEvent("1301", LeftTimeText.text, CashOutManager.GetInstance().Money.ToString());
+        CashDrakeSeaman.RatRuminate().TakeDrake("1301", LeftTimeText.text, CashOutManager.RatRuminate().Money.ToString());
     }
 }

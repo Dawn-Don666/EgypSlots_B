@@ -135,7 +135,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 466319114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1670ee04b19c794db301d734c71bdd6, type: 3}
+  m_Script: {fileID: 11500000, guid: f6260c3019bae2e4a9fa61cbe0c218c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 466319116}
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 466319114}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}
@@ -425,7 +425,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1140995461}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1140995461}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1670ee04b19c794db301d734c71bdd6, type: 3}
+  m_Script: {fileID: 11500000, guid: f6260c3019bae2e4a9fa61cbe0c218c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 1140995462}
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1915670692}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1670ee04b19c794db301d734c71bdd6, type: 3}
+  m_Script: {fileID: 11500000, guid: f6260c3019bae2e4a9fa61cbe0c218c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 1915670694}
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1915670692}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}

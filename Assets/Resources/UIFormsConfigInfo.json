@@ -1,87 +1,95 @@
-﻿{
-	"ConfigInfo": [
-		{
-			"Key": "本配置文件说明"
-		},
-		{
-			"Key": "CashOutPanel",
-			"Value": "UIPanel\\CashOutPanel"
-		},
-		{
-			"Key": "RateUsPanel",
-			"Value": "UIPanel\\RateUsPanel"
-		},
-		{
-			"Key": "BlockPanel",
-			"Value": "UIPanel\\BlockPanel"
-		},
-		{
-			"Key": "Toast",
-			"Value": "UIPanel\\Common\\Toast"
-		},
-		{
-			"Key": "GamePanel",
-			"Value": "UIPanel\\GamePanel"
-		},
-		{
-			"Key": "ScratchPanel",
-			"Value": "UIPanel\\ScratchPanel"
-		},
-		{
-			"Key": "FiveFSRewardPanel",
-			"Value": "UIPanel\\FiveFSRewardPanel"
-		},
-		{
-			"Key": "CompareSizePanel",
-			"Value": "UIPanel\\CompareSizePanel"
-		},
-		{
-			"Key": "CompareSizeWatchAdPanel",
-			"Value": "UIPanel\\CompareSizeWatchAdPanel"
-		},
-		{
-			"Key": "OpenBoxPanel",
-			"Value": "UIPanel\\OpenBoxPanel"
-		},
-		{
-			"Key": "Match3Panel",
-			"Value": "UIPanel\\Match3Panel"
-		},
-		{
-			"Key": "GeneralRewardPanel",
-			"Value": "UIPanel\\GeneralRewardPanel"
-		},
-		{
-			"Key": "WinPanel",
-			"Value": "UIPanel\\WinPanel"
-		},
-		{
-			"Key": "JackPotPanel",
-			"Value": "UIPanel\\JackPotPanel"
-		},
-		{
-			"Key": "GoldPigPanel",
-			"Value": "UIPanel\\GoldPigPanel"
-		},
-		{
-			"Key": "SettingPanel",
-			"Value": "UIPanel\\SettingPanel"
-		},
-		{
-			"Key": "PaytablePanel",
-			"Value": "UIPanel\\PaytablePanel"
-		},
-		{
-			"Key": "MinigameRewardPanel",
-			"Value": "UIPanel\\MinigameRewardPanel"
-		},
-		{
-			"Key": "AddSpinsPanel",
-			"Value": "UIPanel\\AddSpinsPanel"
-		},
-		{
-			"Key": "NewPlayerGuidePanel",
-			"Value": "UIPanel\\NewPlayerGuidePanel"
-		}
-	]
+{
+  "ConfigInfo": [
+    {
+      "Key": "\u672C\u914D\u7F6E\u6587\u4EF6\u8BF4\u660E"
+    },
+    {
+      "Key": "TangTieCoast",
+      "Value": "UIPanel\\TangTieCoast"
+    },
+    {
+      "Key": "JulyUsCoast",
+      "Value": "UIPanel\\JulyUsCoast"
+    },
+    {
+      "Key": "PeaceCoast",
+      "Value": "UIPanel\\PeaceCoast"
+    },
+    {
+      "Key": "Medal",
+      "Value": "UIPanel\\Common\\Medal"
+    },
+    {
+      "Key": "PestCoast",
+      "Value": "UIPanel\\PestCoast"
+    },
+    {
+      "Key": "SuspectCoast",
+      "Value": "UIPanel\\SuspectCoast"
+    },
+    {
+      "Key": "RaftFSLeaderCoast",
+      "Value": "UIPanel\\RaftFSLeaderCoast"
+    },
+    {
+      "Key": "NoveltyCropCoast",
+      "Value": "UIPanel\\NoveltyCropCoast"
+    },
+    {
+      "Key": "NoveltyCropThickNoCoast",
+      "Value": "UIPanel\\NoveltyCropThickNoCoast"
+    },
+    {
+      "Key": "Creep3Coast",
+      "Value": "UIPanel\\Creep3Coast"
+    },
+    {
+      "Key": "LibertyLeaderCoast",
+      "Value": "UIPanel\\LibertyLeaderCoast"
+    },
+    {
+      "Key": "TooCoast",
+      "Value": "UIPanel\\TooCoast"
+    },
+    {
+      "Key": "JackPotPanel",
+      "Value": "UIPanel\\JackPotPanel"
+    },
+    {
+      "Key": "LifeFadCoast",
+      "Value": "UIPanel\\LifeFadCoast"
+    },
+    {
+      "Key": "GeorgiaCoast",
+      "Value": "UIPanel\\GeorgiaCoast"
+    },
+    {
+      "Key": "MycologyCoast",
+      "Value": "UIPanel\\MycologyCoast"
+    },
+    {
+      "Key": "MentallyLeaderCoast",
+      "Value": "UIPanel\\MentallyLeaderCoast"
+    },
+    {
+      "Key": "RunLinenCoast",
+      "Value": "UIPanel\\RunLinenCoast"
+    }, 
+    {
+      "Key": "PaceJetCoast",
+      "Value": "UIPanel\\PaceJetCoast"
+    },  
+    {
+      "Key": "CashOutPanel",
+      "Value": "UIPanel\\CashOutPanel"
+    },
+    {
+      "Key": "CudDappleRaiseCoast",
+      "Value": "UIPanel\\CudDappleRaiseCoast"
+    },  
+    {
+      "Key": "CartNotCoast",
+      "Value": "UIPanel\\CartNotCoast"
+    }
+  ]
 }

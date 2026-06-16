@@ -110,7 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 574229783745813853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68f2921da1a2c2343b1581724d555749, type: 3}
+  m_Script: {fileID: 11500000, guid: 145b9a5eadf59ee40876147cf59a5a82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   WindowLayer: 1
@@ -120,7 +120,7 @@ MonoBehaviour:
   CloseAnim: 1
   closeBtn: {fileID: 971921394423687605}
   listParent: {fileID: 868768302975875146}
-  upgradeListItemPrefab: {fileID: 8278679724661074268, guid: 23bcff637cca7be4e8586a1f5f9a2e01, type: 3}
+  upgradeListItemPrefab: {fileID: 8278679724661074268, guid: ef792855a2048b9439d7ef7f4589461c, type: 3}
 --- !u!1 &5579751975149778731
 GameObject:
   m_ObjectHideFlags: 0
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 27b3c58cb23b8d74da103da0e74c017e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6666b3e7832861d49987af9a17589170, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -307,7 +307,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f17835209b1cc1647b9dcc736e1859e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 431f8c6ba369b6a4fbdf1d95de158277, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -570,7 +570,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 482239b351b04f344a7eea7ba2426252, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5343c1cf20a7a914ba53c5c36a663b52, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

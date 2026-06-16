@@ -634,7 +634,7 @@ GameObject:
   m_Layer: 0
   m_Name: R_Ground
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
+  m_Icon: {fileID: 2800000, guid: 8f51b059eb67a2843940b24fb0dcb270, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -646,7 +646,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 380101352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3662334b99de5fe4396ab24e30c4fd12, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d1f899feca36dd4992e859d25a15b47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   groundMask:
@@ -667,7 +667,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 380101352}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: right-ground
@@ -1366,7 +1366,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 658011008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f726fb798ad621458c431cb9966d91d, type: 3}
+  m_Script: {fileID: 11500000, guid: 32c985e48987f7049915d3f4507d9802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneRoot: {fileID: 1776464689}
@@ -1380,7 +1380,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 658011008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: 2f899e95232e6144786de8fb99678a8d, type: 2}
@@ -1865,7 +1865,7 @@ GameObject:
   m_Layer: 0
   m_Name: root
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
+  m_Icon: {fileID: 2800000, guid: 8f51b059eb67a2843940b24fb0dcb270, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1892,7 +1892,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 985424157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: root
@@ -1917,7 +1917,7 @@ GameObject:
   m_Layer: 0
   m_Name: L_Ground
   m_TagString: Untagged
-  m_Icon: {fileID: 2800000, guid: d1de1604dfe4cb64c9d31246a8e43c78, type: 3}
+  m_Icon: {fileID: 2800000, guid: 8f51b059eb67a2843940b24fb0dcb270, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1942,7 +1942,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1018673310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3662334b99de5fe4396ab24e30c4fd12, type: 3}
+  m_Script: {fileID: 11500000, guid: 2d1f899feca36dd4992e859d25a15b47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   groundMask:
@@ -1963,7 +1963,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1018673310}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b238dfcde8209044b97d23f62bcaadf6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de2ee91a64cf114984ff350beadf681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   boneName: left-ground
@@ -2377,7 +2377,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1178284505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6df2d8b571e22504284108b691b4a3cd, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b5acb840676f146a73940a41389539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1204355831}
@@ -5728,7 +5728,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27b3e3370f55c0a438ef0a10c2eba510, type: 3}
+  m_Script: {fileID: 11500000, guid: d7af13a1d49b36a4184847d1f77129ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1204355832}
@@ -5752,7 +5752,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d55a3bd6ac81af44b2f9a4447f2ae72, type: 3}
+  m_Script: {fileID: 11500000, guid: c7e5ff147ed6e7f4fbbf4f471cc70818, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 658011011}
@@ -5770,7 +5770,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd8d49de34fd0724ca8c1ae3c44afe59, type: 3}
+  m_Script: {fileID: 11500000, guid: 0ce1514da7671d842b8e0c0ca616c789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 658011011}
@@ -5807,7 +5807,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1204355830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a0f8a82c5d8a334db6996478778b892, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e61b971e2dc57a49b02b361c6834c36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   eventSource: {fileID: 1204355833}

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: AppLovinSettings
   m_EditorClassIdentifier: 
   qualityServiceEnabled: 1
-  sdkKey: KPGJdBx1Llhu2zzwEcHteya9DMY4hos5lmYbY69guG0L7gYp70a8SnCFcjITaUQOMNqLFT9G4jH0tu7RYUdTZlHbjbMQw2fBZUJ/bAX7HbLAdFIR06CszA==
+  sdkKey: roV798CbgtA7cZbneGhh7lVeNlMcaCeHtZj2ciKlSptM6P4f5OXJEdsWr3DyO5qD9yBDR2EoqnaT80Hu/JN+ydiMNQYqJ/vrvttBYqT+vyewg6uPj9rKLA==
   setAttributionReportEndpoint: 0
   customGradleVersionUrl: 
   customGradleToolsVersion: 
   adMobAndroidAppId: 
-  adMobIosAppId: ca-app-pub-3073822658317083~1395113383
+  adMobIosAppId: 

@@ -23,8 +23,8 @@ public class CashOutEnter : MonoBehaviour
 
     void Start()
     {
-        CashOutManager.GetInstance()._CashOutEnter = this;
-        OpenPanelBtn.onClick.AddListener(() => { UIManager.GetInstance().ShowUIForms(nameof(CashOutPanel)); });
+        CashOutManager.RatRuminate()._CashOutEnter = this;
+        OpenPanelBtn.onClick.AddListener(() => { UIFinnish.RatRuminate().WithUIOnset(nameof(CashOutPanel)); });
         UpdateMoney();
     }
 
@@ -38,10 +38,10 @@ public class CashOutEnter : MonoBehaviour
         CashTextAnim?.Kill(true);
         MaxMoneyFillAnim?.Kill(true);
 
-        MoneyText.text = FormatNumber(CashOutManager.GetInstance().Money);
-        CashText.text = CashOutManager.GetInstance().Data.Cash.ToString("F2");
-        float MaxMoney = float.Parse(NetInfoMgr.instance.CashOut_Data.convert_goal, CultureInfo.CurrentCulture);
-        float MoneyEnd = CashOutManager.GetInstance().Money;
+        MoneyText.text = FormatNumber(CashOutManager.RatRuminate().Money);
+        CashText.text = CashOutManager.RatRuminate().Data.Cash.ToString("F2");
+        float MaxMoney = float.Parse(AgoSateHit.instance.TangTie_Tang.convert_goal, CultureInfo.CurrentCulture);
+        float MoneyEnd = CashOutManager.RatRuminate().Money;
         MaxMoneyFillAnim = DOTween.To(() => MaxMoneyFill.fillAmount, x => MaxMoneyFill.fillAmount = x, Mathf.Min(1, MoneyEnd / MaxMoney), 1f);
     }
     public void MoneyToCashAnim(bool IconFly)
@@ -50,8 +50,8 @@ public class CashOutEnter : MonoBehaviour
         MaxMoneyFillAnim?.Kill(true);
 
         float CashOutStart = float.Parse(CashText.text, CultureInfo.CurrentCulture);
-        float CashOutEnd = CashOutManager.GetInstance().Data.Cash;
-        MoneyText.text = FormatNumber(CashOutManager.GetInstance().Money);
+        float CashOutEnd = CashOutManager.RatRuminate().Data.Cash;
+        MoneyText.text = FormatNumber(CashOutManager.RatRuminate().Money);
         CashTextAnim = DOTween.To(() => CashOutStart, x => CashText.text = x.ToString("F2"), CashOutEnd, 1f).SetDelay(.7f);
 
         if (IconFly)
@@ -66,7 +66,7 @@ public class CashOutEnter : MonoBehaviour
                 img.transform.DOMove(FlyEnd.transform.position, .7f).SetEase(Ease.Linear).SetDelay(i * 0.1f).OnComplete(() =>
                 {
                     img.gameObject.SetActive(false);
-                    MusicMgr.GetInstance().PlayEffect(MusicType.UIMusic.Sound_GoldCoin);
+                    RavenHit.RatRuminate().BootEnigma(RavenRoll.UIMusic.Sound_GoldCoin);
                 });
             }
         }

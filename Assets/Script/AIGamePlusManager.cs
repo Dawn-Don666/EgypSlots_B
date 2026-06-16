@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-public class AIGamePlusManager : MonoSingleton<AIGamePlusManager>
+public class AIGamePlusManager : MonoYoungster<AIGamePlusManager>
 {
-    //»ñÈ¡IOSº¯ÊýÉùÃ÷
+    //ï¿½ï¿½È¡IOSï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 #if UNITY_IOS
     [DllImport("__Internal")]
     internal extern static void onGameEvent(string eventToken);
@@ -18,7 +18,7 @@ public class AIGamePlusManager : MonoSingleton<AIGamePlusManager>
     {
 #if UNITY_IOS && !UNITY_EDITOR
         onGameEvent(eventToken);
-        print("AIGamePlus ³¢ÊÔµ÷ÓÃÔ­Éú·½·¨´òµã ÊÂ¼þ£º" + eventToken);
+        print("AIGamePlus ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Â¼ï¿½ï¿½ï¿½" + eventToken);
 #endif
     }
 
@@ -26,7 +26,7 @@ public class AIGamePlusManager : MonoSingleton<AIGamePlusManager>
     {
 #if UNITY_IOS && !UNITY_EDITOR
         onGameLevelChanged(level);
-        print($"AIGamePlus ³¢ÊÔµ÷ÓÃÔ­Éú·½·¨£ºµÈ¼¶£º {level}");
+        print($"AIGamePlus ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½ï¿½ï¿½ {level}");
 #endif
     }
 }

@@ -90,7 +90,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 362864976912428125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a6744a688f6d32348a457acfdab030ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 6392f2e86ce4bc34187717a6577e9df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   topColor:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 362864976912428125}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9146dd8d03998704e9a0ab13e4e62f02, type: 3}
+  m_Script: {fileID: 11500000, guid: a581c96dba6aba44ba5901c39df45bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _amount: 12
@@ -203,7 +203,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 523377213456279731}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
+  m_Script: {fileID: 11500000, guid: 566981ec80d3b54448536bdc1e5f27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2538720778363696660}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f639ee67cb06de44995c9452aa0faab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: b66cf7a186d13054989b33a5c90044e4, type: 2}
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 241bc4e6d19abc84ba072ef1fd75e10f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 96e074cb9a863e643be4e778a3b5e3b6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd618772737049848be13f69791c8f7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3b4d58efc0867c04aabc9aeb544121aa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5616,7 +5616,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7071930174074337419}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 410a1dbf899a79f43a8a5c1144711ec7, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a40a7326cc8948409eee64896e4a6fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BGLight: {fileID: 523377213456279731}

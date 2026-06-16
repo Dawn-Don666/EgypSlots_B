@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 850b10e77a23b854a99cc3aa2eafaba4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a09bc26d568a5324e81703b3b30ceac3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0f7f01c1443395641bcbdadc40246fb0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c50aa9d078635ee4980de10dcf057eea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -514,7 +514,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1c6c95698f759d46aa16bff8ce6f7c6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7fbb6d30f7f9684cbc6a0fe20d77ddf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d936ef3928e1654fb8680addaab881a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7be44f112451d884c9a99d2e9877ee17, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4109a8e990fd19241b297fa9d2a0511d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 839526d97443fdf43bb0ec359906a6bd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -690,7 +690,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8278679724661074268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db00b84c334308240957dd1615815966, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e64622c2658bf4409515d39730785ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 3425699613956320622}
@@ -698,9 +698,9 @@ MonoBehaviour:
   levelTxt: {fileID: 2603397668859508988}
   priceTxt: {fileID: 1205509506167744067}
   upgradeBtn: {fileID: 5536065936535510915}
-  jumpSpr: {fileID: 21300000, guid: 850b10e77a23b854a99cc3aa2eafaba4, type: 3}
-  initialTimeSpr: {fileID: 21300000, guid: 6b7f3a17f8d09904f93424c6abbebd60, type: 3}
-  timeItemSpr: {fileID: 21300000, guid: 6a362e66c68bd0c4d8d6c4aa64f6f32b, type: 3}
+  jumpSpr: {fileID: 21300000, guid: a09bc26d568a5324e81703b3b30ceac3, type: 3}
+  initialTimeSpr: {fileID: 21300000, guid: 331f5bac87297ec40a751ee32f2b4618, type: 3}
+  timeItemSpr: {fileID: 21300000, guid: da59ddd5af958634ab696face61646aa, type: 3}
 --- !u!1 &9096552841783463765
 GameObject:
   m_ObjectHideFlags: 0

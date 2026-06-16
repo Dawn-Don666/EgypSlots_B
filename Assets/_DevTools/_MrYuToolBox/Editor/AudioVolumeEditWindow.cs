@@ -9,14 +9,15 @@ using System;
 public class AudioVolumeEditWindow : EditorWindow
 {
     Vector3 scrollPos = Vector2.zero;
-    Dictionary<string, AudioModel> UIAudioGroup;
-    Dictionary<string, AudioModel> SceneAudioGroup;
+    Dictionary<string, WristTrash> UIAudioGroup;
+    Dictionary<string, WristTrash> SceneAudioGroup;
     //序列化对象
     protected SerializedObject _serializedObject;
     [MenuItem("遇先生工具包/一键[调音]")]
     static void ShowAudioEditWindow()
     {
         EditorWindow.GetWindow(typeof(AudioVolumeEditWindow));
+        //工具包
 
     }
     protected void OnEnable()
@@ -27,25 +28,25 @@ public class AudioVolumeEditWindow : EditorWindow
     }
     void refreshAudioData()
     {
-        UIAudioGroup = new Dictionary<string, AudioModel>();
-        SceneAudioGroup = new Dictionary<string, AudioModel>();
+        UIAudioGroup = new Dictionary<string, WristTrash>();
+        SceneAudioGroup = new Dictionary<string, WristTrash>();
 
         string Filepath = Application.streamingAssetsPath + "/Audio/AudioInfo" + ".json";
         Filepath = Filepath.Replace("StreamingAssets", "Resources");
         
         FileInfo FileInfo = new FileInfo(Filepath);
-        Dictionary<string, AudioModel> audioDic = new Dictionary<string, AudioModel>();
+        Dictionary<string, WristTrash> audioDic = new Dictionary<string, WristTrash>();
         if (FileInfo.Exists)
         {
             audioDic = LoadJson(Filepath);
         }
 
         //UI
-        foreach(object music in Enum.GetValues(typeof(MusicType.UIMusic)))
+        foreach(object music in Enum.GetValues(typeof(RavenRoll.UIMusic)))
         {
             string name = music.ToString();
             if (name == "None") continue;
-            AudioModel model = new AudioModel();
+            WristTrash model = new WristTrash();
             if (audioDic.ContainsKey(name))
             {
                 model = audioDic[name];
@@ -60,11 +61,11 @@ public class AudioVolumeEditWindow : EditorWindow
         }
 
         // Scene
-        foreach (object music in Enum.GetValues(typeof(MusicType.SceneMusic)))
+        foreach (object music in Enum.GetValues(typeof(RavenRoll.SceneMusic)))
         {
             string name = music.ToString();
             if (name == "None") continue;
-            AudioModel model = new AudioModel();
+            WristTrash model = new WristTrash();
             if (audioDic.ContainsKey(name))
             {
                 model = audioDic[name];
@@ -78,20 +79,20 @@ public class AudioVolumeEditWindow : EditorWindow
             SceneAudioGroup.Add(name, model);
         }
     }
-    public Dictionary<string, AudioModel> LoadJson(string Filepath)
+    public Dictionary<string, WristTrash> LoadJson(string Filepath)
     {
         StreamReader reader = new StreamReader(Filepath);
         string jsonString = reader.ReadToEnd();
-        Dictionary<string, AudioModel> audioGroup = JsonMapper.ToObject<Dictionary<string, AudioModel>>(jsonString);
+        Dictionary<string, WristTrash> audioGroup = JsonMapper.ToObject<Dictionary<string, WristTrash>>(jsonString);
         reader.Dispose();
         reader.Close();
         return audioGroup;
     }
     public void SaveJson(string Filepath)
     {
-        Dictionary<string, AudioModel> dic = new Dictionary<string, AudioModel>();
-        MergeDictionaries.Merge(dic, UIAudioGroup);
-        MergeDictionaries.Merge(dic, SceneAudioGroup);
+        Dictionary<string, WristTrash> dic = new Dictionary<string, WristTrash>();
+        MergeDictionaries.Curly(dic, UIAudioGroup);
+        MergeDictionaries.Curly(dic, SceneAudioGroup);
         string JsonData = JsonMapper.ToJson(dic);
         StreamWriter ResourceWrite = new StreamWriter(Filepath);
         ResourceWrite.WriteLine(JsonData);

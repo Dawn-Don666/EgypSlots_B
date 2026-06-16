@@ -26,12 +26,12 @@ public class DebugWindow : OdinEditorWindow
     // 增加资源数
     private void AddItem()
     {
-        ResourceCtrl.Instance.AddItemValue(itemType, ItemNum);
+        NitrogenAmid.Instance.RunBustMuddy(itemType, ItemNum);
     }
     // 设置资源数
     private void ResetItem()
     {
-        ResourceCtrl.Instance.SetItemValue(itemType, ItemNum);
+        NitrogenAmid.Instance.RunBustMuddy(itemType, ItemNum);
     }
 
     [HorizontalGroup("Level", LabelWidth = 60)]
@@ -42,15 +42,15 @@ public class DebugWindow : OdinEditorWindow
     public int level;
     private void StartLevel()
     {
-        LevelCtrl.Instance.StartLevel(level);
+        ThinkAmid.Instance.SwellThink(level);
     }
     private void FinishLevel()
     {
-        LevelCtrl.Instance.LevelVictory();
+        ThinkAmid.Instance.ThinkConcept();
     }
     private void StartNextLevel()
     {
         level++;
-        LevelCtrl.Instance.StartLevel(level);
+        ThinkAmid.Instance.SwellThink(level);
     }
 }

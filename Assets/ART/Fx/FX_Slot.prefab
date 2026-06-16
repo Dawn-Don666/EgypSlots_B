@@ -1500,7 +1500,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: c7bab571a2b57c746879acc1e8518343, type: 3}
+    - sprite: {fileID: 21300000, guid: ff17826c4f750054285a7d4f03dd1a5d, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -4898,7 +4898,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 780253998479507664}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
+  m_Script: {fileID: 11500000, guid: 566981ec80d3b54448536bdc1e5f27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -6344,7 +6344,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 4ee49f13414d2054aa470d697b8e1cc8, type: 3}
+    - sprite: {fileID: 21300000, guid: f15985a262df06849b51cef06a421ae3, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -11118,7 +11118,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 4ee49f13414d2054aa470d697b8e1cc8, type: 3}
+    - sprite: {fileID: 21300000, guid: f15985a262df06849b51cef06a421ae3, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -14528,7 +14528,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2590045542078503356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
+  m_Script: {fileID: 11500000, guid: 566981ec80d3b54448536bdc1e5f27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -14660,7 +14660,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f856e29dcac31c54b8986dc4593c1f7a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 318cdc1263b483d47856f20c44d77f87, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14725,7 +14725,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5772803959459191779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
+  m_Script: {fileID: 11500000, guid: 566981ec80d3b54448536bdc1e5f27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -14817,7 +14817,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b0066a43405bc747b786f8d4c9818ab, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5b45e5b2600129548969b016172ba182, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

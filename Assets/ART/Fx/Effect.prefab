@@ -1431,7 +1431,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: f05d62b96a63ece458ba702f485fcdb9, type: 3}
+    - sprite: {fileID: 21300000, guid: b482d85be7f0088498b085a2a79514f7, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -4886,7 +4886,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2008726928976798261}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
+  m_Script: {fileID: 11500000, guid: 566981ec80d3b54448536bdc1e5f27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -4970,7 +4970,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2628583477150745364}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16f0b0b6d0b7542bfbd20a3e05b04ff1, type: 3}
+  m_Script: {fileID: 11500000, guid: 566981ec80d3b54448536bdc1e5f27b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -6444,7 +6444,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: aec2a9aa4487d3a49aca6d7bf14b6961, type: 3}
+    - sprite: {fileID: 21300000, guid: 680e997ea31d53746bfc4f35db523b4f, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -11245,7 +11245,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: 56a2d7ac922f2a74db2bb2c6005bfc74, type: 3}
+    - sprite: {fileID: 21300000, guid: 9b61258fc2c70d14993c8f3b0637d940, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:
@@ -16095,7 +16095,7 @@ ParticleSystem:
     uvChannelMask: -1
     rowMode: 1
     sprites:
-    - sprite: {fileID: 21300000, guid: d1f112f9f8cf23f46995ca3556d9f403, type: 3}
+    - sprite: {fileID: 21300000, guid: 9fcc13fc3a0b885499a2a9128e8980b4, type: 3}
     flipU: 0
     flipV: 0
   VelocityModule:

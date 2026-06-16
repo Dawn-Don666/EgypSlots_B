@@ -258,7 +258,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3362427511726771347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa77a1e02a0945889b37e8ec0ef863f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 58c0eb0d6780c294aafa42f047fc2e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4601602872068246997
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5000844572590901187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d23e0809f174194b1ec65bc791aca68, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c95c3e2af674c646b77cf421c01205f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5244116731468320169
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5569829439135202897}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5bd6cdf03534f559060f6c73cf5d3a5, type: 3}
+  m_Script: {fileID: 11500000, guid: bca95fff516fd6b4c90505cdf28c75e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   frameRate: 60
@@ -842,10 +842,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6889479809438951788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb39ee74fa084664086badb330babd5e, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c28017b88d1c3942984ed4d7d000710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultButtonSound: {fileID: 8300000, guid: 15a7c6e142587d444b226b73182704aa, type: 3}
+  DefaultButtonSound: {fileID: 8300000, guid: 39f9f9c82a5017c49b3a75bbfabf95dc, type: 3}
   DefaultBGM: {fileID: 0}
   Audios: []
   SoundPoolSize: 5

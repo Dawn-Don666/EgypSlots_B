@@ -333,7 +333,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 93048074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c70a5b35f6ff2541aed8e8346b7e4d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fc4ba0ed64f1cf409f0d726214e92a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 93048076}
@@ -350,7 +350,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 93048074}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: a467507a4ffb1d542a558739b2fede77, type: 2}
@@ -542,7 +542,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 122287539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0b968d1e7333b499e347acb644f1c1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8e8e3e27a0a4dc458d3ba68b9aa70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &122287541
@@ -722,7 +722,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 565117361}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1fd8daaed7b64148a34acb96ba14ce1, type: 3}
+  m_Script: {fileID: 11500000, guid: 79333cc1e9404e04ea0f93eeed121688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 93048076}
@@ -4146,7 +4146,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 0.18002023, g: 0.36764705, b: 0, a: 0.709}
   m_FlipX: 0
   m_FlipY: 0
@@ -4342,7 +4342,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 0.33843803, g: 0.6911765, b: 0, a: 0.353}
   m_FlipX: 0
   m_FlipY: 0
@@ -4397,7 +4397,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185404037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d85b887af7e6c3f45a2e2d2920d641bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f639ee67cb06de44995c9452aa0faab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: b66cf7a186d13054989b33a5c90044e4, type: 2}
@@ -4451,7 +4451,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1185404037}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6bb29eb283767441a398ce2a7be27c3, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f30f4c8d72c4d944a96d6fe91bd9267, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonGraphic: {fileID: 1185404039}
@@ -4560,7 +4560,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 0.48965502, g: 1, b: 0, a: 0.928}
   m_FlipX: 0
   m_FlipY: 0
@@ -4756,7 +4756,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1619823300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0b968d1e7333b499e347acb644f1c1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8e8e3e27a0a4dc458d3ba68b9aa70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1619823302
@@ -4868,7 +4868,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1698487791}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0b968d1e7333b499e347acb644f1c1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8e8e3e27a0a4dc458d3ba68b9aa70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1698487793
@@ -4985,7 +4985,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1769987559}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c0b968d1e7333b499e347acb644f1c1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8e8e3e27a0a4dc458d3ba68b9aa70d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!23 &1769987561
@@ -5108,7 +5108,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918225114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c70a5b35f6ff2541aed8e8346b7e4d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 6fc4ba0ed64f1cf409f0d726214e92a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 1918225116}
@@ -5125,7 +5125,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918225114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: a467507a4ffb1d542a558739b2fede77, type: 2}
@@ -5214,7 +5214,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1918225114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66b573446c3300f45b950b243338b97c, type: 3}
+  m_Script: {fileID: 11500000, guid: e4ffd75c48e123748a99197c2d376327, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 1918225116}

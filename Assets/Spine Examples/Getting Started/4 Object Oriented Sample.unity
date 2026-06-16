@@ -146,7 +146,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 299828572}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f999dde27e9711a45b0ee1b0d25217ec, type: 3}
+  m_Script: {fileID: 11500000, guid: 69f9705a77b8a0d45881729a774757d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 816033309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d247ba06193faa74d9335f5481b2b56c, type: 3}
+  m_Script: {fileID: 11500000, guid: f22101528572dcc488d00c6b1667c780, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonDataAsset: {fileID: 11400000, guid: af38a3de26ed9b84abc2fe7c7f3b209d, type: 2}
@@ -438,7 +438,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 816033309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b59f510ae90fd1a419f19ed805e6e229, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c104ba79229e224facb7afb43ad26db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 299828574}
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 816033309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af275876c7b01264b85161629a9bc217, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f81e97aa3e1369499b2c11a4a7e6ad3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonAnimation: {fileID: 816033310}
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1147196155}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f685123e0610c347a7b2c03c8a19535, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d13a19cbdf72394dbfc3f49b36c6790, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   horizontalAxis: Horizontal
@@ -1096,7 +1096,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2088845776}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1fd8daaed7b64148a34acb96ba14ce1, type: 3}
+  m_Script: {fileID: 11500000, guid: 79333cc1e9404e04ea0f93eeed121688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   skeletonRenderer: {fileID: 816033310}
@@ -4408,7 +4408,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 718074e4e56a5404e824bf8e6571ea7d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7244781ab5e672e4fb8cda5640f89da8, type: 3}
   m_Color: {r: 0.16470589, g: 0.1764706, b: 0.20000002, a: 1}
   m_FlipX: 0
   m_FlipY: 0
