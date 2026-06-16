@@ -9,12 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.changes" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.changes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.selector" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.selector" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/.plastic/plastic.wktree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/BuildJson/BuildJson_iOS.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/BuildJson/BuildJson_iOS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/LocationJson/LocationData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/LocationJson/LocationData.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_3rdPartySDKs/MaxSdk/Resources/AppLovinSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_3rdPartySDKs/MaxSdk/Resources/AppLovinSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_DevTools/_MrYuToolBox/Editor/SuperBuildWindow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_DevTools/_MrYuToolBox/Editor/SuperBuildWindow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +20,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/Interface/ISpriteEditorDataProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.adaptiveperformance@4.0.1/Editor/Management/AdaptivePerformanceBuildProcessorHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.7.7/Editor/Window/SequenceContext.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -102,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1781587458112</updated>
-      <workItem from="1781587463875" duration="4945000" />
+      <workItem from="1781587463875" duration="9290000" />
     </task>
     <servers />
   </component>
