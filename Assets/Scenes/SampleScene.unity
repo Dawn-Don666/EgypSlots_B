@@ -122,6 +122,57 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &6509146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6509148}
+  - component: {fileID: 6509147}
+  m_Layer: 0
+  m_Name: Adjust
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &6509147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6509146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 525ece82a472e4dea837e1ef938fd15d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startManually: 1
+  eventBuffering: 0
+  sendInBackground: 0
+  launchDeferredDeeplink: 1
+  appToken: pthzju2quy2o
+  logLevel: 1
+  environment: 1
+--- !u!4 &6509148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6509146}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,8 +353,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _LoginPlatform: 1
-  AppInfo: 86
-  BaseUrl: http://us.wanfun.top
+  AppInfo: 150
+  BaseUrl: http://us.casualverse.top
   Account: 
   Data:
     UserID: 
@@ -328,7 +379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb92580f0fb11746bfaf82c509f3d5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  appid: 6754836846
+  appid: 6762693654
 --- !u!114 &593724526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,7 +404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9db51e690e81154db9ce5089d0a376d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  adjustID: r2m0ta4dpp1c
+  TorporID: pthzju2quy2o
 --- !u!114 &593724528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -366,21 +417,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0bd3692455e67848b70e6682d588a5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BaseUrl: http://wanfun.top
-  BaseLoginUrl: http://wanfun.top/api/client/user/getId?gameCode=
-  BaseConfigUrl: http://wanfun.top/api/client/config?gameCode=
-  BaseTimeUrl: http://wanfun.top/api/client/common/current_timestamp?gameCode=
-  BaseAdjustUrl: http://wanfun.top/api/client/user/setAdjustId?gameCode=
-  GameCode: 21394
-  Channel: AppStore
-  country: 
-  adManager: {fileID: 2135965622}
-  gaid: 
-  aid: 
-  idfa: 
-  ready: 0
-  DataFrom: 
-  UserDataStr: 
+  AeroShy: http://casualverse.top
+  AeroSpeckShy: http://casualverse.top/api/client/user/getId?gameCode=
+  AeroShaperShy: http://casualverse.top/api/client/config?gameCode=
+  AeroTombShy: http://casualverse.top/api/client/common/current_timestamp?gameCode=
+  AeroDevoteShy: http://casualverse.top/api/client/user/setAdjustId?gameCode=
+  PestLand: 21394
+  Besiege: AppStore
+  Seafood: 
+  AxFinnish: {fileID: 2135965622}
+  Idle: 
+  Ten: 
+  Game: 
+  Zebra: 0
+  TangDiva: 
+  AcreTangIon: 
 --- !u!1 &629447052
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,10 +505,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63821534acf95554599a0593cc5d022c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: 1
-  fiveFSSpinCount: 0
-  isAutoSpinning: 0
-  roundEnd: 0
+  Eloquent: 0
+  TendFSBaskBland: 0
+  AnAutoSpoonful: 0
+  MountAge: 0
 --- !u!4 &854048818
 Transform:
   m_ObjectHideFlags: 0
@@ -648,7 +699,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1710975878
+--- !u!1 &2061923965
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -656,41 +707,34 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1710975880}
-  - component: {fileID: 1710975879}
+  - component: {fileID: 2061923967}
+  - component: {fileID: 2061923966}
   m_Layer: 0
-  m_Name: Adjust
+  m_Name: AgoLifeFinnish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1710975879
+--- !u!114 &2061923966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710975878}
+  m_GameObject: {fileID: 2061923965}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5af8c159c6669eb49826777f6f6194a9, type: 3}
+  m_Script: {fileID: 11500000, guid: d99026200d327fe4b804c61b87d9ca5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startManually: 1
-  eventBuffering: 0
-  sendInBackground: 0
-  launchDeferredDeeplink: 1
-  appToken: r2m0ta4dpp1c
-  logLevel: 1
-  environment: 1
---- !u!4 &1710975880
+--- !u!4 &2061923967
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710975878}
+  m_GameObject: {fileID: 2061923965}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -729,9 +773,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MAX_SDK_KEY: uMM4Qa0Zb1DDxb817lz0Iomdb5tTB9k+JAKeyiZDJBeDkyqSEfgnC7oW0izWyDLPaFvHbAVYA0bdE5E9yWyAEywOqRUjw7i1+2htU9rO50zWh76LBjGXtA==
-  MAX_REWARD_ID: fd8e412ba4e8e6b6
-  MAX_INTER_ID: f3f2fad30e48aa8b
-  isTest: 0
+  MAX_REWARD_ID: 977df7295246d1f8
+  MAX_INTER_ID: ac1f01ee96747500
+  AnRise: 0
 --- !u!4 &2135965624
 Transform:
   m_ObjectHideFlags: 0
@@ -854,5 +898,6 @@ SceneRoots:
   - {fileID: 1626373772}
   - {fileID: 1416054905}
   - {fileID: 854048818}
-  - {fileID: 1710975880}
   - {fileID: 629447053}
+  - {fileID: 2061923967}
+  - {fileID: 6509148}

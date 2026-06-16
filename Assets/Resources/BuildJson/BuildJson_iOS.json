@@ -1,1 +1,17 @@
-{"BuildTarget":"iOS","DesState":"DES","BaseUrl":"http://wanfun.top","GameName":"Celestium Storm:Diamond Cloud","PackageName":"com.futureswitch.vaultsofcleo","BuildCode":6,"Applovin_SDK_KEY":"uMM4Qa0Zb1DDxb817lz0Iomdb5tTB9k+JAKeyiZDJBeDkyqSEfgnC7oW0izWyDLPaFvHbAVYA0bdE5E9yWyAEywOqRUjw7i1+2htU9rO50zWh76LBjGXtA==","Applovin_REWARD_ID":"fd8e412ba4e8e6b6","Applovin_INTER_ID":"f3f2fad30e48aa8b","Adjust_APP_ID":"r2m0ta4dpp1c","GameCode":"21394","Rate_ID":"6754836846","Build_path":"","ZT_LoginPlatform":1,"ZT_ID":"86"}
+{
+  "BuildTarget": "iOS",
+  "DesState": "DES",
+  "BaseUrl": "http://casualverse.top",
+  "GameName": "Celestium Storm:Diamond Cloud",
+  "PackageName": "com.futureswitch.vaultsofcleo",
+  "BuildCode": 13,
+  "Applovin_SDK_KEY": "uMM4Qa0Zb1DDxb817lz0Iomdb5tTB9k+JAKeyiZDJBeDkyqSEfgnC7oW0izWyDLPaFvHbAVYA0bdE5E9yWyAEywOqRUjw7i1+2htU9rO50zWh76LBjGXtA==",
+  "Applovin_REWARD_ID": "977df7295246d1f8",
+  "Applovin_INTER_ID": "ac1f01ee96747500",
+  "Adjust_APP_ID": "pthzju2quy2o",
+  "GameCode": "21394",
+  "Rate_ID": "6762693654",
+  "Build_path": "",
+  "ZT_LoginPlatform": 1,
+  "ZT_ID": "150"
+}

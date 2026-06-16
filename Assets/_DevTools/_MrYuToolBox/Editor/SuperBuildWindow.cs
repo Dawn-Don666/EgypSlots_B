@@ -107,7 +107,7 @@ public class SuperBuildWindow : UnityEditor.EditorWindow
             if (GUILayout.Button("加密Applovin_SDK_KEY"))
             {
                 info.DesState = "DES";
-                info.Applovin_SDK_KEY = RatNearbyTang.ExpanseDES(info.Applovin_SDK_KEY);
+                info.Applovin_SDK_KEY = RatNearbyTang.DivergeDES(info.Applovin_SDK_KEY);
 
             }
         }
