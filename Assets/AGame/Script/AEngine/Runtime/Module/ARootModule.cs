@@ -114,7 +114,7 @@ public sealed class ARootModule : ASingletonBehaviour<ARootModule>
         AGame.Timer.RemoveTimer(_tid);
         _tid = AGame.Timer.AddTimer((args =>
         {
-            NetInfoMgr.getIDFA();
+            AgoSateHit.getIDFA();
             AGame.Timer.RemoveTimer(_tid);
             _tid = 0;
         }), 5);
