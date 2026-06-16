@@ -5446,9 +5446,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _amount: 1
-  _thickness: 0
+  _Emphasize: 1
   _offset: {x: 0, y: -4.65}
-  _useGradient: 0
+  _GunDecrease: 0
   _color: {r: 0.48627454, g: 0.13333334, b: 0.47058827, a: 1}
   gradient:
     serializedVersion: 2
@@ -5480,7 +5480,7 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  gradientDirection: 1
+  SubmergeSupersede: 1
 --- !u!1 &1793408568442447356
 GameObject:
   m_ObjectHideFlags: 0
@@ -43534,14 +43534,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5c735a19ecd94144a2bb4b614cc45fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _CurrentUIType:
-    IsClearReverseChange: 0
+  _SlanderUIRoll:
+    UpPieceMagnifyMelody: 0
     UIForms_Type: 2
     UIForm_ShowMode: 1
     UIForm_LucencyType: 1
     UIForm_animationType: 1
-  close_button: {fileID: 0}
-  boxes:
+  Bless_Scrape: {fileID: 0}
+  Rally:
   - {fileID: 7161564539458239203}
   - {fileID: 286128578334385270}
   - {fileID: 4431024844337548606}
@@ -43551,16 +43551,16 @@ MonoBehaviour:
   - {fileID: 1928955022070037167}
   - {fileID: 6356602864933095657}
   - {fileID: 8109374616702720540}
-  keysCountTxt: {fileID: 2584109312235614773}
-  add3TriesBtn: {fileID: 7780966408299106711}
-  closeBtn: {fileID: 5171271933903765207}
-  rewardMajor: {fileID: 2692249646232784401, guid: a60ea65b007403546a7da6198b9142ef, type: 3}
-  rewardMinor: {fileID: 9117144652952106542, guid: ecb0727534cb2bf48a6cf64b5881ea41, type: 3}
-  rewardMini: {fileID: 699379729863642177, guid: 9d66540b6af96ba47b872553c1e3ce07, type: 3}
-  rewardDiamond: {fileID: 7552890056602878279, guid: 0673d52a289b6f041a7ada022197067f, type: 3}
-  rewardSkull: {fileID: 1390691605894473766, guid: 29b5f31979c3ba442aab243909355fff, type: 3}
-  rewardCry: {fileID: 8465539443378511898, guid: 98dbe55588d358845b82e6f012f49292, type: 3}
-  rewardScorpion: {fileID: 4404025710384017512, guid: 2f9a00cb7482b544b9402527d020f49f, type: 3}
+  keysBlandOwe: {fileID: 2584109312235614773}
+  Gel3SteamPul: {fileID: 7780966408299106711}
+  BlessPul: {fileID: 5171271933903765207}
+  BetrayBrace: {fileID: 2692249646232784401, guid: a60ea65b007403546a7da6198b9142ef, type: 3}
+  BetrayAmaze: {fileID: 9117144652952106542, guid: ecb0727534cb2bf48a6cf64b5881ea41, type: 3}
+  BetrayRome: {fileID: 699379729863642177, guid: 9d66540b6af96ba47b872553c1e3ce07, type: 3}
+  BetrayPackage: {fileID: 7552890056602878279, guid: 0673d52a289b6f041a7ada022197067f, type: 3}
+  BetrayCurly: {fileID: 1390691605894473766, guid: 29b5f31979c3ba442aab243909355fff, type: 3}
+  BetrayAll: {fileID: 8465539443378511898, guid: 98dbe55588d358845b82e6f012f49292, type: 3}
+  BetrayEquality: {fileID: 4404025710384017512, guid: 2f9a00cb7482b544b9402527d020f49f, type: 3}
 --- !u!1 &7878766852128634361
 GameObject:
   m_ObjectHideFlags: 0
@@ -49298,6 +49298,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -49427,6 +49435,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -49556,6 +49572,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -49685,6 +49709,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -49814,6 +49846,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -49943,6 +49983,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -50072,6 +50120,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -50201,6 +50257,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -50330,6 +50394,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4189765416947669157}
     m_Modifications:
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: IceRoyal.rgba
+      value: 4286835967
+      objectReference: {fileID: 0}
+    - target: {fileID: 145327619744257216, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
+      propertyPath: SpruceRoyal.rgba
+      value: 4283580159
+      objectReference: {fileID: 0}
     - target: {fileID: 3148855004936770026, guid: bc01c5698bbc94a48ac5c33aa12b3ef4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
