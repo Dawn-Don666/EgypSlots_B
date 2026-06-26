@@ -107,8 +107,7 @@ public sealed class ARootModule : ASingletonBehaviour<ARootModule>
         Application.lowMemory += OnLowMemory;
         AEventModule.Init();
         // 初始化游戏入口
-        //StartCoroutine(GameInit());
-        AGameEntry.Init();
+        StartCoroutine(GameInit());
 
 #if UNITY_IOS && !UNITY_EDITOR
         AGame.Timer.RemoveTimer(_tid);
